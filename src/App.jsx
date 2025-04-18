@@ -10,7 +10,7 @@ function NavBar({ setSection, section }) {
         <span role="img" aria-label="home" style={{marginRight: 6}}>🏠</span> Home
       </button>
       <button className={section === 'chatbot' ? 'active' : ''} onClick={() => setSection('chatbot')}>
-        <span role="img" aria-label="chat" style={{marginRight: 6}}>💬</span> Chatbot
+        <span role="img" aria-label="chat" style={{marginRight: 6}}>💬</span> Let's Talk
       </button>
       <button className={section === 'tools' ? 'active' : ''} onClick={() => setSection('tools')}>
         <span role="img" aria-label="tools" style={{marginRight: 6}}>🧰</span> Therapeutic Tools
@@ -197,7 +197,7 @@ function Chatbot() {
 
   return (
     <main>
-      <h2>Chatbot Companion</h2>
+      <h2>Let's Talk</h2>
       <div className="chatbot-box">
         <div className="chat-messages">
           {messages.map((msg, idx) => (
