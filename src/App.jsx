@@ -173,7 +173,7 @@ function Chatbot() {
     setError(null);
     setInput('');
     try {
-      const res = await fetch('http://localhost:3001/api/chat', {
+      const res = await fetch('/api/chat', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({
@@ -203,22 +203,22 @@ function Chatbot() {
           {messages.map((msg, idx) => (
             <div key={idx} className={msg.sender === 'bot' ? 'msg bot' : 'msg user'} style={{display: 'flex', alignItems: 'flex-end', justifyContent: msg.sender === 'user' ? 'flex-end' : 'flex-start'}}>
               {msg.sender === 'bot' && (
-  <img
-    src={botAvatar}
-    alt="Bot"
-    className="chat-avatar"
-    onError={e => { e.target.onerror = null; e.target.src = 'https://ui-avatars.com/api/?name=Bot&background=b2d8d8&color=fff&rounded=true&size=64'; }}
-  />
-)}
-<span className="bubble-content">{msg.text}</span>
-{msg.sender === 'user' && (
-  <img
-    src={userAvatar}
-    alt="You"
-    className="chat-avatar"
-    onError={e => { e.target.onerror = null; e.target.src = 'https://ui-avatars.com/api/?name=You&background=ffdac1&color=3a3a3a&rounded=true&size=64'; }}
-  />
-)}
+                <img
+                  src={botAvatar}
+                  alt="Bot"
+                  className="chat-avatar"
+                  onError={e => { e.target.onerror = null; e.target.src = 'https://ui-avatars.com/api/?name=Bot&background=b2d8d8&color=fff&rounded=true&size=64'; }}
+                />
+              )}
+              <span className="bubble-content">{msg.text}</span>
+              {msg.sender === 'user' && (
+                <img
+                  src={userAvatar}
+                  alt="You"
+                  className="chat-avatar"
+                  onError={e => { e.target.onerror = null; e.target.src = 'https://ui-avatars.com/api/?name=You&background=ffdac1&color=3a3a3a&rounded=true&size=64'; }}
+                />
+              )}
             </div>
           ))}
           {loading && <div className="msg bot" style={{display: 'flex', alignItems: 'flex-end'}}><img src={botAvatar} alt="Bot" className="chat-avatar" /><span className="bubble-content">Thinking…</span></div>}
@@ -277,7 +277,7 @@ function GeminiChatbot() {
     setInput('');
     setSelectedTopic(null);
     try {
-      const res = await fetch('http://localhost:3001/api/gemini', {
+      const res = await fetch('/api/gemini', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({
