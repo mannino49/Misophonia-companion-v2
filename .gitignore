@@ -22,3 +22,16 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+# Environment and secrets
+.env
+.env.*
+server/.env
+server/server/.env
+netlify/functions/.env
+# SSH keys
+*.pem
+*.key
+*.pub
+/git push -u origin main
+/git push -u origin main.pub
