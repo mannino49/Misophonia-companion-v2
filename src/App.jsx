@@ -2,6 +2,7 @@ import './App.css'
 import React, { useState, useEffect, useRef } from 'react';
 import botAvatar from './assets/bot-avatar.png';
 import userAvatar from './assets/user-avatar.png';
+import TermsModal from './TermsModal';
 
 function NavBar({ setSection, section }) {
   return (
@@ -108,6 +109,8 @@ function SoundscapePlayer() {
 
 function App() {
   const [section, setSection] = useState('home');
+  const [termsAccepted, setTermsAccepted] = useState(localStorage.getItem('termsAccepted') === 'true');
+  if (!termsAccepted) return <TermsModal onAccept={() => setTermsAccepted(true)} />;
 
   return (
     <>
@@ -150,6 +153,9 @@ function App() {
             </main>
           </div>
         )}
+      </div>
+      <div style={{ fontSize: '0.75rem', color: '#666', textAlign: 'center', margin: '1.5rem 0' }}>
+        Misophonia Companion is not a clinical tool or a substitute for professional psychological or medical treatment. It does not provide diagnosis, therapy, or crisis intervention. If you are experiencing a mental health emergency, please contact a licensed provider or emergency services immediately.
       </div>
     </>
   );
