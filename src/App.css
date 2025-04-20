@@ -46,9 +46,6 @@ body {
   color: #3a3a3a;
   background: linear-gradient(120deg, #f8f6ff 0%, #b2d8d8 100%);
   overflow-x: hidden;
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 
 .container {
