@@ -3,10 +3,10 @@ import React, { useState } from 'react';
 export default function TermsModal({ onAccept }) {
   const [checked, setChecked] = useState(false);
   return (
-    <div style={{ position:'fixed', top:0, left:0, width:'100%', height:'100%', backgroundColor:'rgba(0,0,0,0.7)', zIndex:1000, display:'flex', alignItems:'center', justifyContent:'center' }}>
-      <div style={{ background:'#fff', padding:'2rem', maxWidth:'600px', width:'90%', maxHeight:'80vh', overflowY:'auto', borderRadius:'8px' }}>
+    <div style={{ position:'fixed', top:0, left:0, right:0, bottom:0, backgroundColor:'rgba(0,0,0,0.7)', zIndex:1000, display:'flex', alignItems:'center', justifyContent:'center', border:'4px dashed red' }}>
+      <div style={{ background:'#fff', padding:'2rem', maxWidth:'600px', width:'80%', boxSizing:'border-box', maxHeight:'80vh', overflowY:'auto', borderRadius:'8px', display:'flex', flexDirection:'column', alignItems:'center', border:'4px solid blue' }}>
         <h2>Terms and Conditions</h2>
-        <div style={{ overflowY:'auto', maxHeight:'50vh', textAlign:'left' }}>
+        <div style={{ overflowY:'auto', maxHeight:'50vh', textAlign:'left', width:'100%' }}>
           <p><strong>Effective Date:</strong> [Insert Date]</p>
           <p><strong>1. Acceptance of Terms</strong> By accessing or using the Misophonia Companion application ('App'), you agree to be bound by these Terms and Conditions ('Terms'). If you do not agree to these Terms, do not use the App.</p>
           <p><strong>2. Nature of the App</strong> Misophonia Companion is a digital wellness and research guide. It is intended for informational, educational, and personal support purposes only. The App does not provide medical advice, diagnosis, or treatment. It is not a licensed healthcare service and is not intended to replace professional consultation.</p>
@@ -28,7 +28,7 @@ export default function TermsModal({ onAccept }) {
           <p><strong>10. Contact</strong> For questions or concerns about these Terms, please email: [Your Contact Email]</p>
         </div>
         <h2>Privacy Policy</h2>
-        <div style={{ overflowY:'auto', maxHeight:'30vh', textAlign:'left' }}>
+        <div style={{ overflowY:'auto', maxHeight:'30vh', textAlign:'left', width:'100%' }}>
           <p><strong>Effective Date:</strong> [Insert Date]</p>
           <p><strong>1. Introduction</strong> This Privacy Policy describes how Misophonia Companion ('we', 'us', 'our') collects, uses, and protects your personal information when you use our web and mobile application ('App').</p>
           <p><strong>2. Information We Collect</strong></p>
@@ -43,10 +43,10 @@ export default function TermsModal({ onAccept }) {
           <p><strong>8. Changes to This Policy</strong> We may revise this policy from time to time. Users will be notified of significant changes. Continued use of the App indicates acceptance of the updated policy.</p>
           <p><strong>9. Contact Us</strong> If you have questions or requests related to this Privacy Policy, please contact us at: [Your Contact Email]</p>
         </div>
-        <label style={{ display:'block', margin:'1rem 0' }}>
+        <label style={{ display:'block', margin:'1rem 0', textAlign:'center', width:'100%' }}>
           <input type='checkbox' checked={checked} onChange={e => setChecked(e.target.checked)} /> I have read and agree to the Terms and Conditions and Privacy Policy
         </label>
-        <button disabled={!checked} onClick={() => { localStorage.setItem('termsAccepted','true'); onAccept(); }} style={{ marginTop:'0.5rem', padding:'0.5rem 1rem' }}>Continue</button>
+        <button disabled={!checked} onClick={() => { localStorage.setItem('termsAccepted','true'); onAccept(); }} style={{ marginTop:'1.5rem', padding:'0.5rem 1rem' }}>Continue</button>
       </div>
     </div>
   );
