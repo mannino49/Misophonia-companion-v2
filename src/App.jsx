@@ -3,6 +3,9 @@ import React, { useState, useEffect, useRef } from 'react';
 import botAvatar from './assets/bot-avatar.png';
 import userAvatar from './assets/user-avatar.png';
 import TermsModal from './TermsModal';
+import TestRag from './TestRag';
+import ResearchRag from './ResearchRag';
+import { getCombinedSystemPrompt } from './systemPrompts';
 
 function NavBar({ setSection, section }) {
   return (
@@ -17,7 +20,10 @@ function NavBar({ setSection, section }) {
         <span role="img" aria-label="tools" style={{marginRight: 6}}>🧰</span> Therapeutic Tools
       </button>
       <button className={section === 'research' ? 'active' : ''} onClick={() => setSection('research')}>
-        <span role="img" aria-label="research" style={{marginRight: 6}}>🔬</span> Research Assistant
+        <span role="img" aria-label="research" style={{marginRight: 6}}>🔬</span> Research RAG
+      </button>
+      <button className={section === 'test' ? 'active' : ''} onClick={() => setSection('test')}>
+        <span role="img" aria-label="test" style={{marginRight: 6}}>🧪</span> Test RAG
       </button>
     </nav>
   );
@@ -148,8 +154,14 @@ function App() {
         {section === 'research' && (
           <div className="card">
             <main>
-              <h2>Research Assistant</h2>
-              <GeminiChatbot />
+              <ResearchRag />
+            </main>
+          </div>
+        )}
+        {section === 'test' && (
+          <div className="card">
+            <main>
+              <TestRag />
             </main>
           </div>
         )}
@@ -184,7 +196,7 @@ function Chatbot() {
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({
           messages: [
-            { role: 'system', content: 'You are a calm, supportive misophonia companion and research assistant.' },
+            { role: 'system', content: getCombinedSystemPrompt() },
             ...messages.map(m => ({ role: m.sender === 'user' ? 'user' : 'assistant', content: m.text })),
             { role: 'user', content: input }
           ]
