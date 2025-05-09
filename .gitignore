@@ -38,3 +38,5 @@ netlify/functions/.env
 
 # Local Netlify folder
 .netlify
+misophonia-companion/
+node_modules/
