@@ -1,0 +1,773 @@
+{
+  "doc_type": "scientific paper",
+  "title": "Sound Tolerance Conditions Definitions and Clinical Management",
+  "authors": [
+    "Henry"
+  ],
+  "year": 2022,
+  "journal": "Science University, Portland c C. W. Bill Young Department of Veterans Affairs Medical Center, Bay Pines VA Healthcare System,",
+  "doi": "10.1044/2022_AJA-22-00035",
+  "abstract": null,
+  "keywords": [],
+  "research_topics": [],
+  "created_at": "2025-05-15T22:47:10.553541Z",
+  "source_pdf": "documents/research/Global/Henry 2022 Sound Tolerance Conditions Definitions and Clinical Management.pdf",
+  "sections": [
+    {
+      "section": "(untitled)",
+      "page_start": 1,
+      "page_end": 1,
+      "elements": [
+        {
+          "type": "paragraph",
+          "text": "self_ref='#/pictures/0' parent=RefItem(cref='#/body') children=[] content_layer=<ContentLayer.BODY: 'body'> label=<DocItemLabel.PICTURE: 'picture'> prov=[ProvenanceItem(page_no=1, bbox=BoundingBox(l=39.74125289916992, t=735.0498504638672, r=115.31707000732422, b=710.6977081298828, coord_origin=<CoordOrigin.BOTTOMLEFT: 'BOTTOMLEFT'>), charspan=(0, 0))] captions=[] references=[] footnotes=[] image=None annotations=[]"
+        },
+        {
+          "type": "paragraph",
+          "text": "self_ref='#/pictures/1' parent=RefItem(cref='#/body') children=[] content_layer=<ContentLayer.BODY: 'body'> label=<DocItemLabel.PICTURE: 'picture'> prov=[ProvenanceItem(page_no=1, bbox=BoundingBox(l=485.8541259765625, t=727.183464050293, r=545.0338134765625, b=710.9446868896484, coord_origin=<CoordOrigin.BOTTOMLEFT: 'BOTTOMLEFT'>), charspan=(0, 0))] captions=[] references=[] footnotes=[] image=None annotations=[]"
+        }
+      ]
+    },
+    {
+      "section": "Tutorial",
+      "page_start": 1,
+      "page_end": 1,
+      "elements": [
+        {
+          "type": "heading",
+          "text": "Tutorial"
+        }
+      ]
+    },
+    {
+      "section": "Sound Tolerance Conditions (Hyperacusis, Misophonia, Noise Sensitivity, and Phonophobia): Definitions and Clinical Management",
+      "page_start": 1,
+      "page_end": 1,
+      "elements": [
+        {
+          "type": "heading",
+          "text": "Sound Tolerance Conditions (Hyperacusis, Misophonia, Noise Sensitivity, and Phonophobia): Definitions and Clinical Management"
+        },
+        {
+          "type": "paragraph",
+          "text": "James A. Henry, a,b Sarah M. Theodoroff, a,b Catherine Edmonds, c Idalisse Martinez, d Paula J. Myers, e Tara L. Zaugg, a and Marie-Christine Goodworth a,f a VA RR&D National Center for Rehabilitative Auditory Research, VA Portland Health Care System, OR b Department of Otolaryngology -Head and Neck Surgery, Oregon Health & Science University, Portland c C. W. Bill Young Department of Veterans Affairs Medical Center, Bay Pines VA Healthcare System, FL d W. G. (Bill) Hefner VA Medical Center, VA Salisbury Healthcare System, NC e James A. Haley Veterans ' Hospital, VA Tampa Healthcare System, FL f Department of Educational Psychology, Northern Arizona University, Phoenix"
+        }
+      ]
+    },
+    {
+      "section": "A R T I C L E I N F O",
+      "page_start": 1,
+      "page_end": 1,
+      "elements": [
+        {
+          "type": "heading",
+          "text": "A R T I C L E I N F O"
+        }
+      ]
+    },
+    {
+      "section": "A B S T R A C T",
+      "page_start": 1,
+      "page_end": 2,
+      "elements": [
+        {
+          "type": "heading",
+          "text": "A B S T R A C T"
+        },
+        {
+          "type": "paragraph",
+          "text": "Article History: Received February 9, 2022 Revision received April 2, 2022"
+        },
+        {
+          "type": "paragraph",
+          "text": "Accepted April 12, 2022"
+        },
+        {
+          "type": "paragraph",
+          "text": "Editor-in-Chief: Ryan W. McCreery Editor: Fatima T. Husain"
+        },
+        {
+          "type": "paragraph",
+          "text": "https://doi.org/10.1044/2022_AJA-22-00035"
+        },
+        {
+          "type": "paragraph",
+          "text": "Purpose: For some people, exposure to everyday sounds presents a significant problem. The purpose of this tutorial was to define and differentiate between the various sound tolerance conditions and to review some options for their clinical management."
+        },
+        {
+          "type": "paragraph",
+          "text": "Method: We informally reviewed the literature regarding sound tolerance conditions. The terminology and definitions provided are mostly consistent with how these terms are defined. However, many inconsistencies are noted. Methods of assessment and treatment also differ, and different methodologies are briefly described."
+        },
+        {
+          "type": "paragraph",
+          "text": "Results: Hyperacusis describes physical discomfort or pain when any sound reaches a certain level of loudness that would be tolerable for most people. Misophonia refers to intense emotional reactions to certain sounds (often body sounds such as chewing and sniffing) that are not influenced by the perceived loudness of those sounds. Noise sensitivity refers to increased reactivity to sounds that may include general discomfort (annoyance or feeling overwhelmed) due to a perceived noisy environment, regardless of its loudness. Phonophobia, as addressed in the audiology profession, describes anticipatory fear of sound. Phonophobia is an emotional response such as anxiety and avoidance of sound due to the ' fear ' that sound(s) may occur that will cause a comorbid condition to get worse (e.g., tinnitus) or the sound itself will result in discomfort or pain. (Note that phonophobia is a term used by neurologists to describe ' migraineur phonophobia '-a different condition not addressed herein.)"
+        },
+        {
+          "type": "paragraph",
+          "text": "Conclusions: The literature addresses sound tolerance conditions but reveals many inconsistencies, indicating lack of consensus in the field. When doing an assessment for decreased sound tolerance, it is important to define any terms used so that the patient and all health care professionals involved in the care of the patient are aligned with the goals of the treatment plan. Treatment generally involves gradual and systematic sound desensitization and counseling."
+        },
+        {
+          "type": "paragraph",
+          "text": "Supplemental Material: https://doi.org/10.23641/asha.20164130"
+        },
+        {
+          "type": "paragraph",
+          "text": "In today s ' world, it is normal to be surrounded by sound almost constantly. People become habituated to this steady stream of sound. That is not the case for everyone, however. Being surrounded by ordinary sounds is a significant problem for those who have ' sound tolerance conditions '-encompassing a range of symptoms involving one or more aspects of the acoustic environment being difficult for a person to tolerate."
+        },
+        {
+          "type": "paragraph",
+          "text": "Correspondence to James A. Henry: james.henry@va.gov. Disclosure: The authors have declared that no competing financial or nonfinancial interests existed at the time of publication."
+        },
+        {
+          "type": "paragraph",
+          "text": "Sound tolerance conditions are more diverse than many people realize. It is common to refer to any sound tolerance condition as ' hyperacusis, ' although different terminologies are often used (Baguley & Hoare, 2018;"
+        },
+        {
+          "type": "paragraph",
+          "text": "Fackrell et al., 2017; Pienkowski et al., 2014; Theodoroff et al., 2019; Tyler et al., 2014). Hyperacusis is the oldest term used in the literature (Perlman, 1938); other terms used include ' misophonia, ' ' noise (or sound) sensitivity, ' and ' phonophobia. '"
+        },
+        {
+          "type": "paragraph",
+          "text": "Tyler et al. (2014) noted that terminology regarding sound tolerance conditions was not standardized and summarized how ' authors have described and defined this abnormal, excessive response to sound ' (p. 402). Tyler et al. (2014) suggested a simplistic method of describing sound tolerance conditions as four different forms of hyperacusis: loudness hyperacusis, annoyance hyperacusis, fear hyperacusis, and pain hyperacusis. These different forms could be experienced in isolation or in any combination. The authors provided a comprehensive review of these different conditions. The caveat remains that clinical consensus is still lacking regarding their definitions. Also, the fact that they are not mutually exclusive and can have overlapping symptoms contributes to the confusion on how to identify, assess, and treat these conditions. A group of experts recently used a Delphi process to collaboratively develop a definition of misophonia (Swedo et al., 2022). It might be helpful to do the same with other terms for sound tolerance, though it might be preferrable for the Delphi process to include people with the actual conditions and not just clinicians."
+        },
+        {
+          "type": "paragraph",
+          "text": "When people are asked if they are ' bothered by sound, ' the question can be interpreted in many ways. All types of decreased sound tolerance are subjective conditions that are most commonly identified by self-report. A number of instruments have been developed to diagnose these conditions and assess their impact on the individual (Dauman & Bouscau-Faure, 2005; Fackrell et al., 2015; Henry et al., 2003; Jastreboff & Jastreboff, 1999; Khalfa et al., 2002; Nelting et al., 2002; Prabhu & Nagaraj, 2020; Rosenthal et al., 2021; Siepsiak et al., 2020). In spite of the numerous instruments available, the field is far from achieving any level of standardization, for either assessment or treatment (Baguley & Hoare, 2018). Fortunately, there is growing interest in sound tolerance conditions, as seen by the steadily increasing numbers of peerreviewed scientific papers published on the topic in the last 2 decades."
+        },
+        {
+          "type": "paragraph",
+          "text": "Our laboratory has conducted tinnitus clinical research for over 25 years (Henry, 2021). In the process, thousands of research participants have been evaluated and received various interventions. Although not the stated intent of these studies, we have continually learned from participants who also complained of sound tolerance problems. We have reported some of the data that have been acquired (Theodoroff et al., 2019; Zaugg et al., 2016). The present group of authors has worked together to develop training for clinical management of sound tolerance conditions. The training was based on our own research, clinical experiences working with patients who have sound tolerance conditions, and an informal review of the relevant literature. This tutorial extends those efforts, and its purpose is to operationally define and differentiate between the various sound tolerance conditions and to review different methodologies for their clinical management."
+        }
+      ]
+    },
+    {
+      "section": "Symptoms Often Confused With Sound Tolerance Conditions",
+      "page_start": 2,
+      "page_end": 2,
+      "elements": [
+        {
+          "type": "heading",
+          "text": "Symptoms Often Confused With Sound Tolerance Conditions"
+        },
+        {
+          "type": "paragraph",
+          "text": "A sound tolerance condition can be confused with general annoyance elicited by everyday sounds such as squeaky chairs, ' thumping ' music from cars (or next door), or reactions to certain things people say. Many people are irritated by these kinds of sounds, as well as many others, but such irritation does not constitute a sound tolerance ' condition. '"
+        },
+        {
+          "type": "paragraph",
+          "text": "Users of hearing aids often complain that some sounds are too loud when amplified by the aids. In most cases, such a complaint is not necessarily a sound tolerance condition but may simply be an indication that the hearing aids need to be adjusted to achieve comfortable tolerance of all amplified sounds (Sherlock & Formby, 2017). As a caveat, however, intolerance to amplified sound can reflect an underlying sound tolerance problem as reported in Formby et al. (2015). That study showed that sound therapy can induce an upward shift in loudness tolerance and facilitate adaptation to amplification without having to overcompress the amplification."
+        },
+        {
+          "type": "paragraph",
+          "text": "' Loudness recruitment ' is often confused with a sound tolerance condition but is distinctly different (Radziwon et al., 2019). Loudness grows within the ' dynamic range ' between the threshold of hearing and the loudness discomfort level (LDL). With sensorineural hearing loss, the dynamic range is compressed, causing loudness to grow at a faster rate than with normal hearing. Specifically, the threshold of hearing is elevated, but the intensity level at which sounds are judged uncomfortably loud is not elevated. This ' accelerated growth of loudness ' within the dynamic range, which is inherent with sensorineural hearing loss, defines loudness recruitment."
+        },
+        {
+          "type": "paragraph",
+          "text": "Although loudness recruitment is not a sound tolerance condition in and of itself, it can be argued that it is a sound tolerance problem when the dynamic range is so restricted that amplification is difficult to tolerate. It has been shown that sound therapy, when used for as little as 3 months, can expand the dynamic range by raising the LDL, making it easier for the person to tolerate amplification (Formby et al., 2015)."
+        }
+      ]
+    },
+    {
+      "section": "Sound Tolerance Conditions",
+      "page_start": 2,
+      "page_end": 3,
+      "elements": [
+        {
+          "type": "heading",
+          "text": "Sound Tolerance Conditions"
+        },
+        {
+          "type": "paragraph",
+          "text": "Our informal review of the literature revealed 469 articles in PubMed that included ' hyperacusis, '"
+        },
+        {
+          "type": "paragraph",
+          "text": "' misophonia, ' ' noise sensitivity, ' ' sound sensitivity, ' or ' phonophobia ' in the title. Below is a brief description of each condition and some highlights derived from selected publications."
+        }
+      ]
+    },
+    {
+      "section": "Hyperacusis",
+      "page_start": 3,
+      "page_end": 3,
+      "elements": [
+        {
+          "type": "heading",
+          "text": "Hyperacusis"
+        },
+        {
+          "type": "paragraph",
+          "text": "Hyperacusis is physical discomfort or pain when any sound reaches a certain level of loudness that would be tolerable for most people (Baguley, 2003; Fackrell et al., 2017). That level of sound (the LDL) is below the level that the average person can tolerate comfortably. It has been reported that a person with normal loudness tolerance can comfortably tolerate sounds that reach 100 dB HL or more (Jastreboff & Jastreboff, 2001), which would be in the upper range of some power tools and lawnmowers. There is also evidence that the range of ' normal ' sound tolerance is fairly wide (Sherlock & Formby, 2005). A person with hyperacusis cannot tolerate sound at or even lower than what would be considered a normal LDL and often can only tolerate up to 60 -70 dB HL of sound, which would be the range of the human voice. With hyperacusis, the source of the sound is irrelevant -when ' any ' sound reaches the LDL, it is uncomfortably loud. Hyperacusis is almost always a bilateral condition (Baguley & Hoare, 2018)."
+        },
+        {
+          "type": "paragraph",
+          "text": "There is a strong association between hyperacusis and tinnitus, with up to 90% of people with hyperacusis experiencing tinnitus (Aazh et al., 2014). Also, about 40% of people with tinnitus have been reported to experience hyperacusis (Jastreboff et al., 1996). This relationship may strengthen as tinnitus becomes more severe (Cederroth et al., 2020; Raj-Koziak et al., 2021). For example, it was estimated that the co-occurrence of hyperacusis, along with ' severe ' tinnitus, was as high as 80% (Cederroth et al., 2020). These prevalence estimates, however, depend on numerous variables. Hyperacusis, such as tinnitus, is entirely subjective, and people will report the experience of hyperacusis depending on which questions are asked, how the questions are worded, and their interpretation of the questions. To exemplify this variability, percentages of hyperacusis in individuals with a primary complaint of tinnitus, regardless of severity, have ranged from 7.3% (Hiller & Goebel, 2007) to 79% (Dauman & Bouscau-Faure, 2005)."
+        }
+      ]
+    },
+    {
+      "section": "Misophonia",
+      "page_start": 3,
+      "page_end": 3,
+      "elements": [
+        {
+          "type": "heading",
+          "text": "Misophonia"
+        },
+        {
+          "type": "paragraph",
+          "text": "Misophonia refers to intense emotional reactions to certain sounds, regardless of the loudness of those sounds (Palumbo et al., 2018). The recent Delphi consensus statement defined misophonia as ' a disorder of decreased sound tolerance to specific sounds or stimuli associated with such sounds . . . . Misophonic responses do not seem to be elicited by the loudness of auditory stimuli, but rather by the specific pattern or meaning to an individual."
+        },
+        {
+          "type": "paragraph",
+          "text": "Trigger stimuli are often repetitive and primarily, but not exclusively, include stimuli generated by another individual, especially those produced by the human body ' (Swedo et al., 2022, p. 10)."
+        },
+        {
+          "type": "paragraph",
+          "text": "Clearly, misophonia is not a loudness tolerance problem -it is most typically an inability to tolerate oral and nasal sounds such as chewing, swallowing, lip smacking, breathing, and sniffing (Siepsiak et al., 2020). It is common that a person with misophonia cannot be in the company of others while they are eating. Other trigger sounds can include repeatedly clicking a ballpoint pen, tapping a foot, and typing. Problem sounds may not be limited to body sounds but can include any sound in the environment that causes emotional reactions (Hansen et al., 2021). This would not pertain to the annoyance that may be experienced by, for example, a person who is exposed to ambient sounds such as babies crying on an airplane, the sound of neighbors, the chatter of children in the background, or just a noisy environment."
+        },
+        {
+          "type": "paragraph",
+          "text": "The term misophonia was introduced in the early 2000s (Jastreboff & Jastreboff, 2001, 2002; Palumbo et al., 2018). The condition most certainly existed prior to then but was referred to by different terms. Misophonic reactions resulting from trigger sounds involve arousal of the sympathetic nervous system and emotional distress (Erfanian et al., 2019). The primary emotion is anger, with other emotions including irritation, impatience, aggravation, anxiety, and disgust (Jager, de Koning, et al., 2020; Palumbo et al., 2018; Rouw & Erfanian, 2018). These reactions usually begin during childhood or adolescence (Edelstein et al., 2013; Palumbo et al., 2018; Schroder et al., 2013) and may be caused by one particular person (Edelstein et al., 2013). Misophonia has been argued to be a psychological condition that may require mental health intervention (Taylor, 2017) and separately that it is a psychiatric disorder (Jager, de Koning, et al., 2020)."
+        }
+      ]
+    },
+    {
+      "section": "Noise Sensitivity",
+      "page_start": 3,
+      "page_end": 4,
+      "elements": [
+        {
+          "type": "heading",
+          "text": "Noise Sensitivity"
+        },
+        {
+          "type": "paragraph",
+          "text": "Noise sensitivity has been defined as ' the physiological and psychological state of an individual that increases their reactivity to noise in general ' (Shepherd et al., 2019, p. 1). Like misophonia, noise sensitivity is not driven by the intensity level or perceived loudness of sounds in the environment. That is not to say that a higher level of noise is not associated with greater reactions, which very well may be the case, but that is not the defining feature. People with noise sensitivity are typically most comfortable in a quiet environment, although remaining in quiet might exacerbate their problem if they are fearful of being exposed to an unexpected sound and/or have bothersome tinnitus as a comorbidity."
+        },
+        {
+          "type": "paragraph",
+          "text": "Noise sensitivity is highly prevalent in people who have experienced a traumatic brain injury (TBI; Hall et al., 2005; Shepherd et al., 2019). It is estimated that up"
+        },
+        {
+          "type": "paragraph",
+          "text": "to 80% of people who have had a TBI go on to experience postconcussive syndrome, which includes a constellation of symptoms that include noise sensitivity (Shepherd et al., 2019). Also, there is a documented relationship between noise sensitivity and both depression and anxiety (Shepherd, Heinonen-Guzejev, Hautus, & Heikkila, 2015). Furthermore, noise sensitivity is common among people with autism spectrum disorder (Kuiper et al., 2019). It may be important to screen for these conditions in an individual suspected of having noise sensitivity."
+        },
+        {
+          "type": "paragraph",
+          "text": "Noise sensitivity can be manifested by emotional reactions to sound -most typically annoyance -and/or the sense of feeling threatened by sound (Shepherd, HeinonenGuzejev, Heikkila, et al., 2015). Estimates of its prevalence have ranged from 20% to 40% (Heinonen-Guzejev, 2008), and it can range from low to high severity (Shepherd, Heinonen-Guzejev, Heikkila, et al., 2015). The prevalence of those with high noise sensitivity (i.e., those who are extremely noise reactive) has been estimated to be around 12% (Booi & van den Berg, 2012; van Kamp et al., 2004). Because terminology and definitions have differed in both the clinical and research literature, it is difficult to compare and interpret studies with any consistency (Shepherd, Heinonen-Guzejev, Hautus, & Heikkila, 2015)."
+        }
+      ]
+    },
+    {
+      "section": "Phonophobia",
+      "page_start": 4,
+      "page_end": 4,
+      "elements": [
+        {
+          "type": "heading",
+          "text": "Phonophobia"
+        },
+        {
+          "type": "paragraph",
+          "text": "Phonophobia is in a different category than hyperacusis, misophonia, and noise sensitivity. Phonophobia is not a condition of discomfort caused by a physical sound. It is ' fear ' that a sound may occur that will result in anxiety, discomfort, or pain or that will exacerbate an existing auditory disorder (hearing loss, tinnitus, hyperacusis, misophonia, or noise sensitivity). People with phonophobia often avoid being outdoors in urban environments because of the unpredictable nature of sounds from cars, trucks, motorcycles, emergency sirens, people yelling, children screaming, and so forth. Such individuals commonly wear earplugs and/or earmuffs when outdoors (and indoors when away from home). Sound tolerance conditions are not mutually exclusive, and some of these behaviors also present with other types (e.g., hyperacusis)."
+        },
+        {
+          "type": "paragraph",
+          "text": "In the scientific literature, the term phonophobia is often used to describe sound intolerance resulting from migraine headaches (Evans et al., 2008; Kalita et al., 2021; Vingen et al., 1998). In those publications, phonophobia is defined as for hyperacusis, that is, as decreased loudness tolerance. A clear distinction between phonophobia and hyperacusis is the following:"
+        },
+        {
+          "type": "paragraph",
+          "text": "Phonophobia is defined as a persistent, abnormal, and unwarranted fear of sound. Often, these are normal environmental sounds (for example, traffic, kitchen sounds, doors closing, or even loud speech) that cannot under any circumstances be damaging."
+        },
+        {
+          "type": "paragraph",
+          "text": "Phonophobia may also be related to, caused by, or confused with hyperacusis, which is abnormally strong reaction to sound, occurring within the auditory pathways, in levels that would not trouble a normal individual. (Asha ari et al., 2010, p. 49) '"
+        }
+      ]
+    },
+    {
+      "section": "Screening for Sound Tolerance Conditions",
+      "page_start": 4,
+      "page_end": 5,
+      "elements": [
+        {
+          "type": "heading",
+          "text": "Screening for Sound Tolerance Conditions"
+        },
+        {
+          "type": "paragraph",
+          "text": "The majority of patients with a significant sound tolerance problem would present that as their primary complaint. Because of the high prevalence of sound tolerance conditions, especially hyperacusis, among people with chronic tinnitus, however, it is important to screen for these conditions in this population. This concern was addressed by Schecklmann et al. (2015), who compared the validity of such screening using two hyperacusisrelated items from the Tinnitus Sample Case History Questionnaire compared to a German hyperacusis questionnaire (translated as the ' hypersensitivity to sound questionnaire ' ). The two items were (a) ' Do you have a problem tolerating sounds because they often seem much too loud? That is, do you often find too loud or hurtful sounds which other people around you find quite comfortable? ' with response choices of ' never, ' ' rarely, ' ' sometimes, ' ' usually, ' or ' always ' and (b) ' Do sounds cause you pain or physical discomfort? ' with response choices of ' yes, ' ' no, ' or ' I do not know. ' Results of this study with 161 patients with chronic tinnitus indicated that the two items were ' suitable to screen patients with chronic tinnitus for hyperacusis and are particularly sensitive for the hyperacusis-related aspects fear and pain ' (p. 6)."
+        },
+        {
+          "type": "paragraph",
+          "text": "The Tinnitus and Hearing Survey (THS; Henry et al., 2015) was developed to screen candidates for tinnitus clinical trials. Its original purpose was to ensure that research participants were not misattributing any hearing problems they might be experiencing as being due to their tinnitus, which often occurs. The THS contains 10 items. The first four items (Section A) inquire about common tinnitus problems (e.g., difficulty falling asleep) that would not be confused with a hearing problem. The second four items (Section B) address common hearing problems (e.g., understanding speech in noisy situations) that would not be confounded by tinnitus. The final two items (Section C) screen for possible decreased sound tolerance. The THS contains instructions for using the instrument (see Supplemental Material S1)."
+        },
+        {
+          "type": "paragraph",
+          "text": "Focusing on the Section C of the THS, the two items in that section were carefully constructed to enable identification of a sound tolerance problem with a reasonable degree of certainty (Theodoroff et al., 2019). The first item states, ' Over the last week, sounds were too loud or uncomfortable for me when they seemed normal to others around me, ' with response choices of ' not a problem, ' ' small problem, ' ' moderate problem, ' ' big problem, '"
+        },
+        {
+          "type": "paragraph",
+          "text": "and ' very big problem. ' If at least a small problem is noted, then the person is instructed, ' Please list two examples of sounds that are too loud or uncomfortable for you but seem normal to others. ' The two examples are often suggestive as to whether the person indeed has a sound tolerance problem. Further questioning by the clinician is usually necessary to properly interpret the responses."
+        }
+      ]
+    },
+    {
+      "section": "Assessment of Sound Tolerance Conditions",
+      "page_start": 5,
+      "page_end": 5,
+      "elements": [
+        {
+          "type": "heading",
+          "text": "Assessment of Sound Tolerance Conditions"
+        },
+        {
+          "type": "paragraph",
+          "text": "Despite the lack of agreement regarding how best to define and characterize sound tolerance conditions, there are various screening and assessment tools that can be used to aid the clinician in evaluating the patient and creating a treatment plan."
+        }
+      ]
+    },
+    {
+      "section": "Tinnitus Retraining Therapy Initial and Follow-Up Interviews",
+      "page_start": 5,
+      "page_end": 5,
+      "elements": [
+        {
+          "type": "heading",
+          "text": "Tinnitus Retraining Therapy Initial and Follow-Up Interviews"
+        },
+        {
+          "type": "paragraph",
+          "text": "Tinnitus retraining therapy (TRT) was first described and implemented clinically in 1990 (Gold et al., 2000; Jastreboff, 1990). The method is based on the ' neurophysiological model ' that identifies different brain areas and how they are thought to interact when tinnitus is bothersome (Jastreboff & Hazell, 2004). Intervention with TRT focuses on promoting habituation, which refers to decreased responsiveness that results from repeated stimulation with an inconsequential stimulus (Domjan & Burkhard, 1986). Whereas about 80% of individuals with chronic tinnitus habituate naturally to their tinnitus, about 20% do not (Hoffman & Reed, 2004; Tunkel et al., 2014)."
+        },
+        {
+          "type": "paragraph",
+          "text": "Assessment of patients with TRT includes administering the TRT initial interview (Jastreboff & Jastreboff, 1999). The single-page TRT initial interview has been expanded and described in detail (Henry et al., 2003). The form contains three sections: tinnitus, sound tolerance, and hearing. Completing the interview is essential to properly place patients into one of the TRT patient categories, based on their reported difficulties with tinnitus, decreased sound tolerance, and hearing. For the sound tolerance section, 13 items are completed, making this a fairly comprehensive evaluation tool. A follow-up version of the interview has also been described in detail, which facilitates monitoring of treatment progress and determining treatment outcomes (Henry et al., 2003)."
+        }
+      ]
+    },
+    {
+      "section": "Sound Tolerance Interview",
+      "page_start": 5,
+      "page_end": 6,
+      "elements": [
+        {
+          "type": "heading",
+          "text": "Sound Tolerance Interview"
+        },
+        {
+          "type": "paragraph",
+          "text": "The Sound Tolerance Interview (STI) was originally published in our clinician s ' handbook describing progressive tinnitus management (PTM; Henry et al., 2010). The STI was developed specifically for assessing hyperacusis and was revised to also assess for misophonia, noise sensitivity, and phonophobia (see Supplemental Material S2). We would not recommend administering the STI with a patient unless the patient has reported a sound tolerance problem. The STI was designed specifically for intake assessment. It has face validity for this purpose but has not been formally validated with complementary measures. Also, it can be used pre- and posttreatment but has not been validated for outcome assessment. The STI form is mostly self-explanatory, but additional details are provided below to facilitate its administration."
+        },
+        {
+          "type": "paragraph",
+          "text": "STI Item 1. This item is only pertinent if the patient wears hearing aids. If so, the intent is to determine if the reported sound tolerance problem is specific to amplification, which would be the case if the patient does not have a problem when not wearing the hearing aids."
+        },
+        {
+          "type": "paragraph",
+          "text": "STI Item 2. This item contains one question, ' Is there anything you want to be doing but are not doing because of difficulty tolerating sound? ' This open-ended question is asked before any examples are provided for how sound tolerance can affect life activities. It therefore may identify the most important reason sound tolerance is considered a problem by the individual."
+        },
+        {
+          "type": "paragraph",
+          "text": "STI Item 3. Item 3 contains a list of interventions that might have been used for the sound tolerance problem. For any intervention identified, the patient ranks how helpful it was on a scale of 0 -10."
+        },
+        {
+          "type": "paragraph",
+          "text": "STI Items 4 and 5. Each of these items uses a 0 -10 scale. For Item 4, patients rate their level of confidence that they can improve their tolerance to sound, which assesses their readiness or motivation to effect positive change. For Item 5, they globally rate how much difficulty tolerating sound affects their life."
+        },
+        {
+          "type": "paragraph",
+          "text": "STI Item 6. Item 6 contains a list of 10 different types of sounds (plus ' other ' ) that might be bothersome to the person. For each type of sound, examples are given. Any example sound that is bothersome is circled, and any bothersome sound that is not listed is written in. Each type of sound also includes a list of possible reasons why those sounds are bothersome (too loud, annoying, make me angry, make me anxious, overwhelming, I avoid). For any of these reasons chosen, patients are asked to give specific examples or comments to clarify."
+        },
+        {
+          "type": "paragraph",
+          "text": "STI Item 6 is especially useful for differentiating between the four sound tolerance conditions as described above. The item ' drills down ' to the details of what general categories of sounds are bothersome, what specific sounds are bothersome, and the reasons such sounds are bothersome. The information obtained from this item will usually make it clear if the condition is hyperacusis, misophonia, noise sensitivity, phonophobia, or some combination."
+        },
+        {
+          "type": "paragraph",
+          "text": "STI Item 7. This item provides a comprehensive list of 18 categories of life activities that are potentially affected by a sound tolerance problem. The clinician reads through the list, and for each category, the patient selects one of the response choices: never, rarely, sometimes, often, always, or N/A. Another choice, which can be chosen in addition to the other choices, is ' avoids. '"
+        },
+        {
+          "type": "paragraph",
+          "text": "Item 7 augments Item 2, which is open-ended with respect to what activities are not engaged in because of a sound tolerance problem. These two items are especially important to identify the functional effects of the problem. What matters most for informing treatment efforts is to understand how a person s life is impacted. '"
+        },
+        {
+          "type": "paragraph",
+          "text": "STI Item 8. This item asks patients how much time they spend in quiet or silence. Six responses are possible on a Likert scale ranging from ' none or very little ' to ' all of the time. ' People with a sound tolerance problem often tend to stay at home to avoid exposure to uncomfortable sound. They also may avoid being around family members or others who are eating or engaging in activities that produce sounds that trigger reactions."
+        },
+        {
+          "type": "paragraph",
+          "text": "STI Item 9. This item provides a list of health conditions that may be linked in some way to the sound tolerance problem. The nexus could go either way -the health condition may be the cause of the sound tolerance problem, or the sound tolerance problem may exacerbate the health condition. Treatment would need to address both."
+        },
+        {
+          "type": "paragraph",
+          "text": "STI Item 10. This last item asks if the patient wears earplugs or earmuffs. If the response is ' yes, ' it is followed by two additional questions. The questions are designed to determine if patients are ' overprotecting ' their ears. Patients should be aware that loud sound can cause damage and exacerbate their sound tolerance condition -thus necessitating the appropriate use of hearing protection. They also need to understand, however, that ' inappropriate ' use of hearing protection can exacerbate their sound tolerance condition. Some patients use earplugs or earmuffs because of their belief that certain sounds or sound, in general, will cause their tinnitus or sound tolerance condition to become worse. They need to be educated that overuse of hearing protection can result in heightened sensitivity to sound, as well as the perception that the tinnitus is louder due to the occlusion effect (Formby & Gold, 2002; Formby et al., 2002, 2003; Gold et al., 1999; Hazell & Sheldrake, 1992; McKinney et al., 1999; Vernon & Press, 1998; Wolk & Seefeld, 1999). If such overuse has already occurred, then it is important that the patient take steps to reverse any heightened sensitivity by gradually reducing the use of hearing protection. These patients must progress to the point that they only use hearing protection when exposed to sounds that can cause damage to the auditory system."
+        }
+      ]
+    },
+    {
+      "section": "Hyperacusis Questionnaires",
+      "page_start": 6,
+      "page_end": 6,
+      "elements": [
+        {
+          "type": "heading",
+          "text": "Hyperacusis Questionnaires"
+        },
+        {
+          "type": "paragraph",
+          "text": "As reviewed by Baguley and Hoare (2018), three instruments are available for assessing the impact of hyperacusis."
+        },
+        {
+          "type": "list_item",
+          "text": "GLYPH<129> The most commonly used measure is the 14-item Hyperacusis Questionnaire (HQ; Khalfa et al., 2002). The HQ was tested with 201 participants"
+        },
+        {
+          "type": "list_item",
+          "text": "randomly selected from the general population. It has not been validated with hyperacusis patients."
+        },
+        {
+          "type": "list_item",
+          "text": "GLYPH<129> The Questionnaire on Hypersensitivity to Sound is a brief instrument that was developed and validated in German (Bläsing et al., 2010). It has been translated into English, but the English version has not been validated."
+        },
+        {
+          "type": "list_item",
+          "text": "GLYPH<129> The Multiple-Activity Scale for Hyperacusis (MASH) assesses everyday life activities in which hyperacusis is annoying independent of deteriorated speech understanding in those situations (Dauman & BouscauFaure, 2005). The MASH was validated in a tinnitus population and not in a hyperacusis population."
+        },
+        {
+          "type": "paragraph",
+          "text": "Additional hyperacusis questionnaires include the following:"
+        },
+        {
+          "type": "list_item",
+          "text": "GLYPH<129> The Noise Avoidance Questionnaire was designed to assess avoidance of sound in individuals who have both tinnitus and hyperacusis (Bläsing & KroenerHerwig, 2012)."
+        },
+        {
+          "type": "list_item",
+          "text": "GLYPH<129> The Inventory of Hyperacusis Symptoms was developed ' to create a new scale that is reliable, valid, brief, and easy to score with the purpose of filling the need for a valid, standardized assessment tool to measure hyperacusis symptom severity, treatment outcomes, and diagnostic differentiation. Initial results demonstrated sound statistical properties of the instrument and usefulness as a hyperacusis measurement tool in research and clinical practice ' (Greenberg & Carlos, 2018, p. 1025)."
+        }
+      ]
+    },
+    {
+      "section": "Misophonia Questionnaires",
+      "page_start": 6,
+      "page_end": 7,
+      "elements": [
+        {
+          "type": "heading",
+          "text": "Misophonia Questionnaires"
+        },
+        {
+          "type": "paragraph",
+          "text": "Whereas hyperacusis is believed to have an etiology in the auditory pathways, misophonia is thought to have an etiology in the neurophysiology pathways with heightened arousal of the autonomic nervous system (Erfanian et al., 2019). Misophonia is diagnosed using case history, questionnaire(s), and clinician interview. There is no clinical consensus as to whether misophonia should be considered an auditory disorder or a neuropsychologic disorder. One group has suggested that ' misophonia should be classified as a discrete psychiatric disorder ' (Schroder et al., 2013, p. e54706) in spite of the condition never appearing previously in the psychiatric literature. That group used 42 patients with misophonia to develop the Amsterdam Misophonia Scale to measure the severity of misophonia symptoms. They differentiated a ' specific phobia, ' such as anxiety caused by a barking dog, from misophonia, which involves reactions of aggression. The Amsterdam Misophonia Scale has not yet been validated for its psychometric properties (Siepsiak et al., 2020)."
+        },
+        {
+          "type": "paragraph",
+          "text": "The Misophonia Questionnaire is the most detailed and widely used questionnaire for measuring misophonia"
+        },
+        {
+          "type": "paragraph",
+          "text": "(Wu et al., 2014). The instrument was tested in a group of over 400 undergraduate students of psychology. Some psychometric values were validated, but because its external validity was verified with a questionnaire that measured general sound sensitivity, the Misophonia Questionnaire might not be specific to misophonia (Siepsiak et al., 2020)."
+        },
+        {
+          "type": "paragraph",
+          "text": "The MisoQuest was developed to meet the need for a fully validated questionnaire to assess misophonia (Siepsiak et al., 2020). The MisoQuest was developed in phases, and the final version consisted of 14 items. It was described as a tool to measure misophonia, defined as a condition for which a person is triggered immediately by certain sounds with anger as an essential, but not necessarily exclusive, emotion (Siepsiak et al., 2020). The tool therefore depends on how misophonia is defined. The MisoQuest includes all kinds of sounds as potential triggers, not just human-related sounds. The MisoQuest was developed in Polish and tested in a Polish population. The English version has yet to be validated."
+        },
+        {
+          "type": "paragraph",
+          "text": "Additional scales for the assessment of misophonia have been developed and are available online (Siepsiak et al., 2020). These include the Misophonia Assessment Questionnaire, the Misophonia Physiological Response Scale, and the Misophonia Activation Scale. None of these, however, has been validated or published in a peerreviewed journal."
+        }
+      ]
+    },
+    {
+      "section": "Noise Sensitivity Questionnaires",
+      "page_start": 7,
+      "page_end": 7,
+      "elements": [
+        {
+          "type": "heading",
+          "text": "Noise Sensitivity Questionnaires"
+        },
+        {
+          "type": "paragraph",
+          "text": "The first instrument purported to assess noise sensitivity was Weinstein s ' Noise Sensitivity Scale (Weinstein, 1978). A later study evaluated the validity of the Noise Sensitivity Scale and determined that some of the questions were inappropriate and that response bias influenced the score (Kishikawa et al., 2006). These latter investigators revised the scale and named it the Weinstein Noise Sensitivity Scale -6B, which they claimed was more appropriate for assessing noise sensitivity. Weinstein s scale has ' since been labeled as ' outdated ' (Shepherd, HeinonenGuzejev, Hautus, & Heikkila, 2015)."
+        },
+        {
+          "type": "paragraph",
+          "text": "The Noise Sensitivity Questionnaire (NoiSeQ) is a 35-item scale to measure noise sensitivity for different situations in daily life (Schutte, Marks, et al., 2007; Schutte, Sandrock, & Griefahn, 2007). The NoiSeQ assesses noise sensitivity in five domains of daily life: habitation, work, leisure, sleep, and communication (Shepherd, HeinonenGuzejev, Hautus, & Heikkila, 2015). The NoiSeQ has been validated for assessing global noise sensitivity (i.e., not specific to the different domains) and for distinguishing between low-noise -sensitive and high-noise -sensitive groups for the habitation and work domains (Schutte, Marks, et al., 2007)."
+        },
+        {
+          "type": "paragraph",
+          "text": "There is currently no standardized clinical assessment protocol for noise sensitivity (Shepherd et al., 2019). This may be largely due to the difficulty disentangling the condition from effects of mood, cognitive deficits, and personality disorders, all of which are associated with noise sensitivity. It is clear that anxiety induces noise sensitivity and possible that depression has the same effect. The dominant correlate of noise sensitivity may be anxiety, which is known to increase overall sensory sensitivity (hypervigilance; Grillon, 2008). Hence, assessment of noise sensitivity might benefit from the use of anxiety measures (Shepherd et al., 2019). The Hospital Anxiety and Depression Scale is a well-known and validated instrument that assesses both anxiety and depression (Zigmond & Snaith, 1983)."
+        }
+      ]
+    },
+    {
+      "section": "Assessment of Phonophobia",
+      "page_start": 7,
+      "page_end": 7,
+      "elements": [
+        {
+          "type": "heading",
+          "text": "Assessment of Phonophobia"
+        },
+        {
+          "type": "paragraph",
+          "text": "In the literature, the term phonophobia is typically used to refer generally to decreased sound tolerance, usually as a symptom of migraine headache. In fact, in 2004, the International Headache Society specified the requirement for phonophobia (or photophobia) to be present to diagnose migraine using the question, ' Does light or noise bother you during a headache? ' (Evans et al., 2008). Noise that is bothersome during a headache would fit the definition of noise sensitivity and not phonophobia, which is specifically fear that sound will be uncomfortable for any reason. To date, no questionnaire specifically evaluates for the presence of phonophobia, as we have described phonophobia above. The STI offers the response item ' avoids ' with respect to the different activities that are listed (see Supplemental Material S2). It would be unusual for phonophobia to be an isolated condition, as it would usually exist along with hyperacusis, misophonia, or noise sensitivity."
+        }
+      ]
+    },
+    {
+      "section": "LDLs",
+      "page_start": 7,
+      "page_end": 8,
+      "elements": [
+        {
+          "type": "heading",
+          "text": "LDLs"
+        },
+        {
+          "type": "paragraph",
+          "text": "It is often recommended to measure LDLs for assessment of sound tolerance conditions (Baguley & Hoare, 2018; Fackrell et al., 2017). Clinically, patients can present with a sound tolerance complaint but have LDLs that are within the normal range. Measurement of LDLs can assist in distinguishing between hyperacusis and misophonia and for monitoring treatment progress with sound therapy (Vidal et al., 2022). Also, Fackrell and Hoare (2018) have made the point that measuring LDLs would be indicated if using a sound tolerance questionnaire that has not been formally validated."
+        },
+        {
+          "type": "paragraph",
+          "text": "It has been shown, however, that LDLs and subjective ratings of decreased sound tolerance are poorly correlated (Anari et al., 1999; Filion & Margolis, 1992; Goebel & Floetzinger, 2008; Zaugg et al., 2016). What that means is, LDLs cannot be relied upon to accurately represent a person s ' ability to tolerate sound in daily life. A further concern with LDL testing is that the test procedure elicits the type of discomfort that defines the complaint (Baguley & Hoare, 2018). That is, patients who are tested are those who are the least likely to be comfortable with LDL testing. Also, we discussed above the high prevalence of"
+        },
+        {
+          "type": "paragraph",
+          "text": "tinnitus as a comorbidity with sound tolerance conditions. The possibility of exacerbating tinnitus during LDL testing is another reason to discourage a blanket approach to always testing LDLs. Testing LDLs should be based on a decision reached between the patient and the provider using history intake and expectations for LDLs to make a contribution to the plan of care and outcomes."
+        },
+        {
+          "type": "paragraph",
+          "text": "For the above reasons, the present authors do not normally recommend LDL testing. We suggest that the best gauge for determining the severity of a sound tolerance problem and to assess progress during and after treatment is the patient s ' responses to a structured interview, such as those described above."
+        }
+      ]
+    },
+    {
+      "section": "Treatment of Sound Tolerance Conditions",
+      "page_start": 8,
+      "page_end": 8,
+      "elements": [
+        {
+          "type": "heading",
+          "text": "Treatment of Sound Tolerance Conditions"
+        },
+        {
+          "type": "paragraph",
+          "text": "The general approach to treatment of any sound tolerance condition is systematic desensitization, involving gradually increasing exposure to the sound, or sounds, that cause discomfort. The specific treatment appropriate for an individual patient is based on how the following questions are answered during the assessment."
+        },
+        {
+          "type": "list_item",
+          "text": "1. Is the decreased sound tolerance secondary to head injury?"
+        },
+        {
+          "type": "list_item",
+          "text": "2. What other health conditions are present (hearing loss and use of hearing aids; tinnitus; anxiety, depression, posttraumatic stress disorder, autism spectrum disorder; migraines)?"
+        },
+        {
+          "type": "list_item",
+          "text": "3. Is the condition thought to involve primarily the auditory pathways or are emotional reactions the primary concern?"
+        },
+        {
+          "type": "list_item",
+          "text": "4. How severe is the condition?"
+        },
+        {
+          "type": "list_item",
+          "text": "5. Should an interdisciplinary approach be recommended? Can an audiologist provide the treatment, or should a psychologist or other behavioral health provider also be involved?"
+        },
+        {
+          "type": "list_item",
+          "text": "6. Is overprotection with earplugs and/or earmuffs a concern?"
+        },
+        {
+          "type": "list_item",
+          "text": "7. Is a fear response involved?"
+        }
+      ]
+    },
+    {
+      "section": "Treatment Based on Severity",
+      "page_start": 8,
+      "page_end": 8,
+      "elements": [
+        {
+          "type": "heading",
+          "text": "Treatment Based on Severity"
+        },
+        {
+          "type": "paragraph",
+          "text": "As part of the assessment, it is essential to determine if a sound tolerance condition is ' mild, ' ' moderate, ' or ' severe, ' with respect to its functional and emotional effects on the person. If mild or moderate, minimal counseling may be adequate to teach patients how to use systematic desensitization. If the condition is severe, treatment should be rigorous and collaborative between clinician (audiologist and/or behavioral health provider) and patient."
+        }
+      ]
+    },
+    {
+      "section": "Treatment of Hyperacusis",
+      "page_start": 8,
+      "page_end": 9,
+      "elements": [
+        {
+          "type": "heading",
+          "text": "Treatment of Hyperacusis"
+        },
+        {
+          "type": "paragraph",
+          "text": "Because hyperacusis is considered a disorder of the auditory system, treatment focuses primarily on the auditory pathways. Hyperacusis is not defined as an emotional disorder but often results in secondary emotional reactions. Counseling is an important component of any treatment for hyperacusis. Counseling that is appropriate for tinnitus addresses issues that are typically also relevant for hyperacusis (Pienkowski et al., 2014). Cognitive behavioral therapy (CBT) is a method that has often been used for this purpose (Andersson & Lyttkens, 1999; Juris et al., 2014)."
+        },
+        {
+          "type": "paragraph",
+          "text": "Numerous sound therapy strategies have been used as treatment for hyperacusis. As reviewed by Pienkowski et al. (2014), there are four general approaches for using sound as treatment for hyperacusis: (a) continuous lowlevel broadband noise, which has been shown to increase LDLs (Formby & Gold, 2002; Gold et al., 1999; Hazell et al., 2002); (b) successive approximations to high-level broadband noise by gradually increasing the level and/or the duration of sound during a certain time of day -an approach using pink noise as described by Vernon and Press (1998); (c) successive approximations to troublesome sounds by recording specific sounds that are bothersome to patients and having them listen to these sounds at gradually increasing levels and duration during times of relaxation (Tyler et al., 2009); and (d) decreasing the maximum output of hearing aids for moderate to high levels of gain with a gradual return to appropriate gain settings (Sammeth et al., 2000; Searchfield, 2006)."
+        },
+        {
+          "type": "paragraph",
+          "text": "Formby et al. (2003) conducted an important experiment comparing the effects of sound enhancement or sound attenuation on listeners ' sensitivity to the loudness of sounds. Participants had normal hearing and normal loudness tolerance based on their LDLs. Participants who wore ear-level sound generators for 2 weeks experienced greater tolerance of the loudness of sounds, as demonstrated by increased LDLs. The participants who wore earplugs for 2 weeks experienced ' reduced ' loudness tolerance, as demonstrated by ' decreased ' LDLs. The increase in LDL values as a result of wearing ear-level sound generators has also been observed in other studies, including the study of Vidal et al. (2022). These results indicate that treatment of hyperacusis should include both desensitization with sound therapy and appropriate use of hearing protection to avoid overprotection."
+        },
+        {
+          "type": "paragraph",
+          "text": "Sound therapy apps have become widely available and contain libraries of sound that may be useful for desensitization. Most patients have cell phones, and hearing aids can function as ' wireless earbuds ' for streaming signals from an app in addition to the amplification. For these patients, an initial strategy can be to use an app to stream sound to the hearing aids. The hearing aids are initially adjusted with a low level of amplification and high compression (Henry et al., 2007a). Sound therapy apps could be applicable for those with normal hearing as well (and hearing devices can be used solely as sound generators with streaming capabilities)."
+        },
+        {
+          "type": "paragraph",
+          "text": "Tyler et al. (2009) described hyperacusis activities treatment (HAT), which was modeled after tinnitus activities treatment (TAT; Tyler, 2006). HAT uses a combination of counseling and sound therapy. The counseling addresses the same issues that are addressed with TAT, that is, cognition, emotions, hearing, sleep, and concentration. The sound therapy can include any of the four general approaches for using sound as treatment for hyperacusis as described by Pienkowski et al. (2014), which are listed above in this section. An additional sound therapy strategy used with HAT is partial masking using a variety of sounds, including music."
+        },
+        {
+          "type": "paragraph",
+          "text": "Hyperacusis treatment with PTM was adapted from the approach used with TRT (Henry et al., 2007a, 2007b, 2010; Jastreboff & Hazell, 2004). For both methods, treatment involves being in an environment of background sound 24/7 (and always at a comfortable level) to gradually increase the upper level (LDL) of the dynamic range. Wearable (ear-level) sound generators are favored with TRT to provide a high degree of control over the sound exposure. The wearable sound generators should be used during all waking hours, with a bedside sound machine to be used while sleeping."
+        },
+        {
+          "type": "paragraph",
+          "text": "Patients with hyperacusis who have a significant hearing loss requiring amplification will likely have a problem tolerating sound that is amplified too much. We mentioned above that some people confuse discomfort due to hearing aids being too loud with a sound tolerance problem. The first item on the STI (see Supplemental Material S2) addresses this concern. Patients are asked if everyday sounds are too loud when they are not wearing hearing aids. If the answer to this question is no, then it is possible that all that is needed is to adjust the aids for comfort. This can often be accomplished by making compression, maximum power output, and/or other adjustments to the aids (Henry et al., 2007a)."
+        }
+      ]
+    },
+    {
+      "section": "Treatment of Misophonia",
+      "page_start": 9,
+      "page_end": 9,
+      "elements": [
+        {
+          "type": "heading",
+          "text": "Treatment of Misophonia"
+        },
+        {
+          "type": "paragraph",
+          "text": "Treatment of misophonia is more complex than for hyperacusis. For hyperacusis, reducing the sensitivity of the auditory system is the primary objective. For misophonia, the objective of treatment is to reduce any emotional reactions caused by sounds -usually soft oral and nasal sounds. Treatment specifically targets the trigger sounds, which may require a qualified psychologist or other behavioral health provider to administer the counseling. Researchbased treatments for misophonia are limited (Jager, Vulink, et al., 2020). Our focus here is on TRT and CBT."
+        },
+        {
+          "type": "paragraph",
+          "text": "With TRT, the intent is to create positive associations with sound in general by ' active listening ' to pleasant sounds (Henry et al., 2007a; Jastreboff & Hazell, 2004). Active listening is different from being in an environment of background that is essentially ignored (which describes ' passive ' listening). When hyperacusis and misophonia occur together, which is often the case, treatment should involve both active listening to pleasant sounds to address the misophonia and desensitization of the auditory system to address the hyperacusis."
+        },
+        {
+          "type": "paragraph",
+          "text": "Case studies have been published describing the successful use of CBT to treat misophonia (Bernstein & Ettema, 2013; Dozier, 2015; McGuire et al., 2015). In a clinical trial, CBT effectively treated 48% of 90 patients (Schroder et al., 2013). In a randomized controlled trial, CBT was compared to a wait-list control group and resulted in both shortand long-term efficacy of CBT (Jager, Vulink, et al., 2020). Using the protocol described in detail for that trial, CBT can be implemented for the clinical treatment of misophonia."
+        }
+      ]
+    },
+    {
+      "section": "Treatment of Noise Sensitivity",
+      "page_start": 9,
+      "page_end": 9,
+      "elements": [
+        {
+          "type": "heading",
+          "text": "Treatment of Noise Sensitivity"
+        },
+        {
+          "type": "paragraph",
+          "text": "Similar to misophonia, treatment of noise sensitivity is more complex than using a straightforward approach of systematic desensitization with sound. Currently, no treatments have been described that are specific to noise sensitivity. Systematic desensitization can be used to attempt to reduce reactivity to sound in general. If the noise sensitivity condition is severe and comorbid with other psychological conditions, however, then clinical management of the condition requires the services of a qualified psychologist or other behavioral health provider."
+        },
+        {
+          "type": "paragraph",
+          "text": "Noise sensitivity has been shown to be highly correlated with anxiety and depression (Shepherd, HeinonenGuzejev, Hautus, & Heikkila, 2015). Because of that association, successful treatment of these disorders using a multidisciplinary approach might also reduce symptoms of noise sensitivity (Shepherd et al., 2019). In that regard, CBT has been shown to be effective in the treatment of anxiety and depression (Andersson & Kaldo, 2006; Beck, 2011; Hofmann & Smits, 2008). Other effective psychological approaches could include cognitive therapy, acceptance and commitment therapy, and mindfulness therapy (Forman et al., 2012; Li et al., 2021)."
+        }
+      ]
+    },
+    {
+      "section": "Treatment of Phonophobia",
+      "page_start": 9,
+      "page_end": 11,
+      "elements": [
+        {
+          "type": "heading",
+          "text": "Treatment of Phonophobia"
+        },
+        {
+          "type": "paragraph",
+          "text": "With TRT, phonophobia is considered a specific type of misophonia that involves fear of sound (Henry et al., 2007a, 2007b; Jastreboff & Hazell, 2004). Misophonia results in emotional reactions to sound, and the condition is not phonophobia if there is no fear involved in anticipating the reaction. Sometimes, people with tinnitus or hyperacusis become fearful that certain sounds can cause damage to the auditory system or cause the hyperacusis or tinnitus to become worse. This would be the typical reason that a fear condition would develop. As a result of the fear, these people overprotect their ears to avoid worsening their reactions to sound. They either use hearing protection (earplugs and/or earmuffs) or avoid the sounds altogether. The sounds that are feared, however,"
+        },
+        {
+          "type": "table",
+          "text": "self_ref='#/tables/0' parent=RefItem(cref='#/body') children=[RefItem(cref='#/texts/152')] content_layer=<ContentLayer.BODY: 'body'> label=<DocItemLabel.TABLE: 'table'> prov=[ProvenanceItem(page_no=10, bbox=BoundingBox(l=59.526206970214844, t=461.8320083618164, r=711.4595336914062, b=152.7962646484375, coord_origin=<CoordOrigin.BOTTOMLEFT: 'BOTTOMLEFT'>), charspan=(0, 0))] captions=[RefItem(cref='#/texts/152')] references=[] footnotes=[] image=None data=TableData(table_cells=[TableCell(bbox=BoundingBox(l=59.93119567260146, t=131.0654303841293, r=95.16086897626519, b=155.58715838193893, coord_origin=<CoordOrigin.TOPLEFT: 'TOPLEFT'>), row_span=1, col_span=1, start_row_offset_idx=0, end_row_offset_idx=1, start_col_offset_idx=0, end_col_offset_idx=1, text='Sound tolerance condition', column_header=True, row_header=False, row_section=False), TableCell(bbox=BoundingBox(l=173.88521566987038, t=147.889886893332, r=253.4115228652954, b=158.29061802476645, coord_origin=<CoordOrigin.TOPLEFT: 'TOPLEFT'>), row_span=1, col_span=1, start_row_offset_idx=0, end_row_offset_idx=1, start_col_offset_idx=1, end_col_offset_idx=2, text='Symptoms/definition', column_header=True, row_header=False, row_section=False), TableCell(bbox=BoundingBox(l=297.3736538887024, t=148.3921366557479, r=424.242, b=159.01361475139856, coord_origin=<CoordOrigin.TOPLEFT: 'TOPLEFT'>), row_span=1, col_span=1, start_row_offset_idx=0, end_row_offset_idx=1, start_col_offset_idx=2, end_col_offset_idx=3, text='Assessment tool', column_header=True, row_header=False, row_section=False), TableCell(bbox=BoundingBox(l=577.4060198664665, t=148.47510670125484, r=617.6670014262199, b=158.7591654509306, coord_origin=<CoordOrigin.TOPLEFT: 'TOPLEFT'>), row_span=1, col_span=1, start_row_offset_idx=0, end_row_offset_idx=1, start_col_offset_idx=3, end_col_offset_idx=4, text='Treatment', column_header=True, row_header=False, row_section=False), TableCell(bbox=BoundingBox(l=60.07740880921483, t=168.7695397734642, r=104.17655432224274, b=177.80812925100327, coord_origin=<CoordOrigin.TOPLEFT: 'TOPLEFT'>), row_span=1, col_span=1, start_row_offset_idx=1, end_row_offset_idx=2, start_col_offset_idx=0, end_col_offset_idx=1, text='Hyperacusis', column_header=False, row_header=False, row_section=False), TableCell(bbox=BoundingBox(l=131.15977761894464, t=169.30368922650814, r=291.104799002409, b=195.64487718045712, coord_origin=<CoordOrigin.TOPLEFT: 'TOPLEFT'>), row_span=1, col_span=1, start_row_offset_idx=1, end_row_offset_idx=2, start_col_offset_idx=1, end_col_offset_idx=2, text='Physical discomfort or pain when any sound reaches a certain level of loudness that would be tolerable for most people', column_header=False, row_header=False, row_section=False), TableCell(bbox=BoundingBox(l=302.69576355814934, t=167.95888796448708, r=476.6299796104431, b=269.3282219469547, coord_origin=<CoordOrigin.TOPLEFT: 'TOPLEFT'>), row_span=1, col_span=1, start_row_offset_idx=1, end_row_offset_idx=2, start_col_offset_idx=2, end_col_offset_idx=3, text='GLYPH<129> TRT initial and follow-up interviews (Henry et al., 2003; Jastreboff & Jastreboff, 1999) GLYPH<129> Sound Tolerance Interview a GLYPH<129> Hyperacusis Questionnaire (Khalfa et al., 2002) GLYPH<129> Questionnaire on Hypersensitivity to Sound (Bläsing et al., 2010) GLYPH<129> Multiple-Activity Scale for Hyperacusis (Dauman & Bouscau-Faure, 2005) GLYPH<129> Noise Avoidance Questionnaire (Bläsing & Kroener-Herwig, 2012) GLYPH<129> Inventory of Hyperacusis Symptoms', column_header=False, row_header=False, row_section=False), TableCell(bbox=BoundingBox(l=297.3736538887024, t=273.39534962177277, r=479.93518710136414, b=366.559574842453, coord_origin=<CoordOrigin.TOPLEFT: 'TOPLEFT'>), row_span=1, col_span=1, start_row_offset_idx=2, end_row_offset_idx=3, start_col_offset_idx=2, end_col_offset_idx=3, text='(Greenberg & Carlos, 2018) GLYPH<129> TRT initial and follow-up interviews (Henry et al., 2003; Jastreboff & Jastreboff, 1999) GLYPH<129> Sound Tolerance Interview a GLYPH<129> Amsterdam Misophonia Scale (Siepsiak et al., 2020) GLYPH<129> Misophonia Questionnaire (Wu et al., 2014) GLYPH<129> MisoQuest (Siepsiak et al., 2020) GLYPH<129> Sound Tolerance Interview a GLYPH<129> Noise Sensitivity Scale (Weinstein, 1978) GLYPH<129> Noise Sensitivity Questionnaire (Schutte,', column_header=False, row_header=False, row_section=False), TableCell(bbox=BoundingBox(l=488.41588854789734, t=166.77509081363678, r=702.0880461931229, b=241.17400991916656, coord_origin=<CoordOrigin.TOPLEFT: 'TOPLEFT'>), row_span=1, col_span=1, start_row_offset_idx=1, end_row_offset_idx=2, start_col_offset_idx=3, end_col_offset_idx=4, text='GLYPH<129> Objective is to reduce the sensitivity of the auditory system GLYPH<129> Sound desensitization - maintain an environment of background sound 24/7 (and always at a comfortable level) to gradually increase the upper level (LDL) of the dynamic range GLYPH<129> Specific methodology is available using HAT, PTM, and TRT', column_header=False, row_header=False, row_section=False), TableCell(bbox=BoundingBox(l=60.136095352470875, t=275.3873766362667, r=101.74599192291498, b=284.4798474907875, coord_origin=<CoordOrigin.TOPLEFT: 'TOPLEFT'>), row_span=1, col_span=1, start_row_offset_idx=2, end_row_offset_idx=3, start_col_offset_idx=0, end_col_offset_idx=1, text='Misophonia', column_header=False, row_header=False, row_section=False), TableCell(bbox=BoundingBox(l=124.12665170431137, t=278.70322239398956, r=286.28516390919685, b=347.56500351428986, coord_origin=<CoordOrigin.TOPLEFT: 'TOPLEFT'>), row_span=1, col_span=1, start_row_offset_idx=2, end_row_offset_idx=3, start_col_offset_idx=1, end_col_offset_idx=2, text='Intense emotional reactions (e.g., anger, disgust, irritation) to certain sounds, regardless of their loudness GLYPH<129> Oral, nasal, and throat sounds GLYPH<129> Sounds associated with eating GLYPH<129> Repetitious sounds such as clicking a pen and tapping', column_header=False, row_header=False, row_section=False), TableCell(bbox=BoundingBox(l=492.943, t=275.87874412413987, r=695.5941942930222, b=331.793166577816, coord_origin=<CoordOrigin.TOPLEFT: 'TOPLEFT'>), row_span=1, col_span=1, start_row_offset_idx=2, end_row_offset_idx=3, start_col_offset_idx=3, end_col_offset_idx=4, text=\"GLYPH<129> Objective is to reduce the emotional/physiological reactions caused by sound GLYPH<129> Sound desensitization (focusing on active listening and ' trigger sounds ' ); may require behavioral health management GLYPH<129> Specific methodology is available using TRT or CBT\", column_header=False, row_header=False, row_section=False), TableCell(bbox=BoundingBox(l=59.83001055568457, t=339.30836164951324, r=116.9015061557293, b=348.66145408153534, coord_origin=<CoordOrigin.TOPLEFT: 'TOPLEFT'>), row_span=1, col_span=1, start_row_offset_idx=3, end_row_offset_idx=4, start_col_offset_idx=0, end_col_offset_idx=1, text='Noise sensitivity', column_header=False, row_header=False, row_section=False), TableCell(bbox=BoundingBox(l=131.15022732317448, t=337.5145565867424, r=290.00612211227417, b=367.5132687687874, coord_origin=<CoordOrigin.TOPLEFT: 'TOPLEFT'>), row_span=1, col_span=1, start_row_offset_idx=3, end_row_offset_idx=4, start_col_offset_idx=1, end_col_offset_idx=2, text='General reactivity or discomfort (annoyance or feeling overwhelmed) due to a perceived noisy environment', column_header=False, row_header=False, row_section=False), TableCell(bbox=BoundingBox(l=297.3521378338337, t=336.9531993865967, r=475.2167104482651, b=386.2934012413025, coord_origin=<CoordOrigin.TOPLEFT: 'TOPLEFT'>), row_span=1, col_span=1, start_row_offset_idx=3, end_row_offset_idx=4, start_col_offset_idx=2, end_col_offset_idx=3, text='Marks, et al., 2007; Schutte, Sandrock, & Griefahn, et al., 2007)', column_header=False, row_header=False, row_section=False), TableCell(bbox=BoundingBox(l=491.81639528274536, t=339.3772627711296, r=694.8092172145844, b=380.1789930462837, coord_origin=<CoordOrigin.TOPLEFT: 'TOPLEFT'>), row_span=1, col_span=1, start_row_offset_idx=3, end_row_offset_idx=4, start_col_offset_idx=3, end_col_offset_idx=4, text='GLYPH<129> Systematic desensitization to attempt to reduce reactivity to sound in general GLYPH<129> If the condition is comorbid with TBI or mental health conditions, then an interprofessional approach is recommended', column_header=False, row_header=False, row_section=False), TableCell(bbox=BoundingBox(l=59.549993846565485, t=384.02837586402893, r=111.36533211171627, b=393.4155044555664, coord_origin=<CoordOrigin.TOPLEFT: 'TOPLEFT'>), row_span=1, col_span=1, start_row_offset_idx=4, end_row_offset_idx=5, start_col_offset_idx=0, end_col_offset_idx=1, text='Phonophobia b', column_header=False, row_header=False, row_section=False), TableCell(bbox=BoundingBox(l=129.39450075477362, t=384.81956923007965, r=287.93012353777885, b=432.3585067987442, coord_origin=<CoordOrigin.TOPLEFT: 'TOPLEFT'>), row_span=1, col_span=1, start_row_offset_idx=4, end_row_offset_idx=5, start_col_offset_idx=1, end_col_offset_idx=2, text=\"' Fear ' that a sound may occur that will result in discomfort or pain or that will exacerbate an existing auditory disorder (hearing loss, tinnitus, hyperacusis, misophonia, and/or noise sensitivity)\", column_header=False, row_header=False, row_section=False), TableCell(bbox=BoundingBox(l=296.66073328256607, t=383.31335866451263, r=461.5657534003258, b=423.9518332481384, coord_origin=<CoordOrigin.TOPLEFT: 'TOPLEFT'>), row_span=1, col_span=1, start_row_offset_idx=4, end_row_offset_idx=5, start_col_offset_idx=2, end_col_offset_idx=3, text='GLYPH<129> Sound Tolerance Interview a GLYPH<129> TRT initial and follow-up interviews (Henry et al., 2003; Jastreboff & Jastreboff, 1999)', column_header=False, row_header=False, row_section=False), TableCell(bbox=BoundingBox(l=491.0463184118271, t=383.78111642599106, r=705.4005485773087, b=430.10860246419907, coord_origin=<CoordOrigin.TOPLEFT: 'TOPLEFT'>), row_span=1, col_span=1, start_row_offset_idx=4, end_row_offset_idx=5, start_col_offset_idx=3, end_col_offset_idx=4, text='GLYPH<129> Educational counseling regarding the benign nature of sounds that are feared to cause an adverse reaction and that the auditory system needs sound for normal functioning GLYPH<129> Specific methodology is available using TRT', column_header=False, row_header=False, row_section=False)], num_rows=5, num_cols=4, grid=[[TableCell(bbox=BoundingBox(l=59.93119567260146, t=131.0654303841293, r=95.16086897626519, b=155.58715838193893, coord_origin=<CoordOrigin.TOPLEFT: 'TOPLEFT'>), row_span=1, col_span=1, start_row_offset_idx=0, end_row_offset_idx=1, start_col_offset_idx=0, end_col_offset_idx=1, text='Sound tolerance condition', column_header=True, row_header=False, row_section=False), TableCell(bbox=BoundingBox(l=173.88521566987038, t=147.889886893332, r=253.4115228652954, b=158.29061802476645, coord_origin=<CoordOrigin.TOPLEFT: 'TOPLEFT'>), row_span=1, col_span=1, start_row_offset_idx=0, end_row_offset_idx=1, start_col_offset_idx=1, end_col_offset_idx=2, text='Symptoms/definition', column_header=True, row_header=False, row_section=False), TableCell(bbox=BoundingBox(l=297.3736538887024, t=148.3921366557479, r=424.242, b=159.01361475139856, coord_origin=<CoordOrigin.TOPLEFT: 'TOPLEFT'>), row_span=1, col_span=1, start_row_offset_idx=0, end_row_offset_idx=1, start_col_offset_idx=2, end_col_offset_idx=3, text='Assessment tool', column_header=True, row_header=False, row_section=False), TableCell(bbox=BoundingBox(l=577.4060198664665, t=148.47510670125484, r=617.6670014262199, b=158.7591654509306, coord_origin=<CoordOrigin.TOPLEFT: 'TOPLEFT'>), row_span=1, col_span=1, start_row_offset_idx=0, end_row_offset_idx=1, start_col_offset_idx=3, end_col_offset_idx=4, text='Treatment', column_header=True, row_header=False, row_section=False)], [TableCell(bbox=BoundingBox(l=60.07740880921483, t=168.7695397734642, r=104.17655432224274, b=177.80812925100327, coord_origin=<CoordOrigin.TOPLEFT: 'TOPLEFT'>), row_span=1, col_span=1, start_row_offset_idx=1, end_row_offset_idx=2, start_col_offset_idx=0, end_col_offset_idx=1, text='Hyperacusis', column_header=False, row_header=False, row_section=False), TableCell(bbox=BoundingBox(l=131.15977761894464, t=169.30368922650814, r=291.104799002409, b=195.64487718045712, coord_origin=<CoordOrigin.TOPLEFT: 'TOPLEFT'>), row_span=1, col_span=1, start_row_offset_idx=1, end_row_offset_idx=2, start_col_offset_idx=1, end_col_offset_idx=2, text='Physical discomfort or pain when any sound reaches a certain level of loudness that would be tolerable for most people', column_header=False, row_header=False, row_section=False), TableCell(bbox=BoundingBox(l=302.69576355814934, t=167.95888796448708, r=476.6299796104431, b=269.3282219469547, coord_origin=<CoordOrigin.TOPLEFT: 'TOPLEFT'>), row_span=1, col_span=1, start_row_offset_idx=1, end_row_offset_idx=2, start_col_offset_idx=2, end_col_offset_idx=3, text='GLYPH<129> TRT initial and follow-up interviews (Henry et al., 2003; Jastreboff & Jastreboff, 1999) GLYPH<129> Sound Tolerance Interview a GLYPH<129> Hyperacusis Questionnaire (Khalfa et al., 2002) GLYPH<129> Questionnaire on Hypersensitivity to Sound (Bläsing et al., 2010) GLYPH<129> Multiple-Activity Scale for Hyperacusis (Dauman & Bouscau-Faure, 2005) GLYPH<129> Noise Avoidance Questionnaire (Bläsing & Kroener-Herwig, 2012) GLYPH<129> Inventory of Hyperacusis Symptoms', column_header=False, row_header=False, row_section=False), TableCell(bbox=BoundingBox(l=488.41588854789734, t=166.77509081363678, r=702.0880461931229, b=241.17400991916656, coord_origin=<CoordOrigin.TOPLEFT: 'TOPLEFT'>), row_span=1, col_span=1, start_row_offset_idx=1, end_row_offset_idx=2, start_col_offset_idx=3, end_col_offset_idx=4, text='GLYPH<129> Objective is to reduce the sensitivity of the auditory system GLYPH<129> Sound desensitization - maintain an environment of background sound 24/7 (and always at a comfortable level) to gradually increase the upper level (LDL) of the dynamic range GLYPH<129> Specific methodology is available using HAT, PTM, and TRT', column_header=False, row_header=False, row_section=False)], [TableCell(bbox=BoundingBox(l=60.136095352470875, t=275.3873766362667, r=101.74599192291498, b=284.4798474907875, coord_origin=<CoordOrigin.TOPLEFT: 'TOPLEFT'>), row_span=1, col_span=1, start_row_offset_idx=2, end_row_offset_idx=3, start_col_offset_idx=0, end_col_offset_idx=1, text='Misophonia', column_header=False, row_header=False, row_section=False), TableCell(bbox=BoundingBox(l=124.12665170431137, t=278.70322239398956, r=286.28516390919685, b=347.56500351428986, coord_origin=<CoordOrigin.TOPLEFT: 'TOPLEFT'>), row_span=1, col_span=1, start_row_offset_idx=2, end_row_offset_idx=3, start_col_offset_idx=1, end_col_offset_idx=2, text='Intense emotional reactions (e.g., anger, disgust, irritation) to certain sounds, regardless of their loudness GLYPH<129> Oral, nasal, and throat sounds GLYPH<129> Sounds associated with eating GLYPH<129> Repetitious sounds such as clicking a pen and tapping', column_header=False, row_header=False, row_section=False), TableCell(bbox=BoundingBox(l=297.3736538887024, t=273.39534962177277, r=479.93518710136414, b=366.559574842453, coord_origin=<CoordOrigin.TOPLEFT: 'TOPLEFT'>), row_span=1, col_span=1, start_row_offset_idx=2, end_row_offset_idx=3, start_col_offset_idx=2, end_col_offset_idx=3, text='(Greenberg & Carlos, 2018) GLYPH<129> TRT initial and follow-up interviews (Henry et al., 2003; Jastreboff & Jastreboff, 1999) GLYPH<129> Sound Tolerance Interview a GLYPH<129> Amsterdam Misophonia Scale (Siepsiak et al., 2020) GLYPH<129> Misophonia Questionnaire (Wu et al., 2014) GLYPH<129> MisoQuest (Siepsiak et al., 2020) GLYPH<129> Sound Tolerance Interview a GLYPH<129> Noise Sensitivity Scale (Weinstein, 1978) GLYPH<129> Noise Sensitivity Questionnaire (Schutte,', column_header=False, row_header=False, row_section=False), TableCell(bbox=BoundingBox(l=492.943, t=275.87874412413987, r=695.5941942930222, b=331.793166577816, coord_origin=<CoordOrigin.TOPLEFT: 'TOPLEFT'>), row_span=1, col_span=1, start_row_offset_idx=2, end_row_offset_idx=3, start_col_offset_idx=3, end_col_offset_idx=4, text=\"GLYPH<129> Objective is to reduce the emotional/physiological reactions caused by sound GLYPH<129> Sound desensitization (focusing on active listening and ' trigger sounds ' ); may require behavioral health management GLYPH<129> Specific methodology is available using TRT or CBT\", column_header=False, row_header=False, row_section=False)], [TableCell(bbox=BoundingBox(l=59.83001055568457, t=339.30836164951324, r=116.9015061557293, b=348.66145408153534, coord_origin=<CoordOrigin.TOPLEFT: 'TOPLEFT'>), row_span=1, col_span=1, start_row_offset_idx=3, end_row_offset_idx=4, start_col_offset_idx=0, end_col_offset_idx=1, text='Noise sensitivity', column_header=False, row_header=False, row_section=False), TableCell(bbox=BoundingBox(l=131.15022732317448, t=337.5145565867424, r=290.00612211227417, b=367.5132687687874, coord_origin=<CoordOrigin.TOPLEFT: 'TOPLEFT'>), row_span=1, col_span=1, start_row_offset_idx=3, end_row_offset_idx=4, start_col_offset_idx=1, end_col_offset_idx=2, text='General reactivity or discomfort (annoyance or feeling overwhelmed) due to a perceived noisy environment', column_header=False, row_header=False, row_section=False), TableCell(bbox=BoundingBox(l=297.3521378338337, t=336.9531993865967, r=475.2167104482651, b=386.2934012413025, coord_origin=<CoordOrigin.TOPLEFT: 'TOPLEFT'>), row_span=1, col_span=1, start_row_offset_idx=3, end_row_offset_idx=4, start_col_offset_idx=2, end_col_offset_idx=3, text='Marks, et al., 2007; Schutte, Sandrock, & Griefahn, et al., 2007)', column_header=False, row_header=False, row_section=False), TableCell(bbox=BoundingBox(l=491.81639528274536, t=339.3772627711296, r=694.8092172145844, b=380.1789930462837, coord_origin=<CoordOrigin.TOPLEFT: 'TOPLEFT'>), row_span=1, col_span=1, start_row_offset_idx=3, end_row_offset_idx=4, start_col_offset_idx=3, end_col_offset_idx=4, text='GLYPH<129> Systematic desensitization to attempt to reduce reactivity to sound in general GLYPH<129> If the condition is comorbid with TBI or mental health conditions, then an interprofessional approach is recommended', column_header=False, row_header=False, row_section=False)], [TableCell(bbox=BoundingBox(l=59.549993846565485, t=384.02837586402893, r=111.36533211171627, b=393.4155044555664, coord_origin=<CoordOrigin.TOPLEFT: 'TOPLEFT'>), row_span=1, col_span=1, start_row_offset_idx=4, end_row_offset_idx=5, start_col_offset_idx=0, end_col_offset_idx=1, text='Phonophobia b', column_header=False, row_header=False, row_section=False), TableCell(bbox=BoundingBox(l=129.39450075477362, t=384.81956923007965, r=287.93012353777885, b=432.3585067987442, coord_origin=<CoordOrigin.TOPLEFT: 'TOPLEFT'>), row_span=1, col_span=1, start_row_offset_idx=4, end_row_offset_idx=5, start_col_offset_idx=1, end_col_offset_idx=2, text=\"' Fear ' that a sound may occur that will result in discomfort or pain or that will exacerbate an existing auditory disorder (hearing loss, tinnitus, hyperacusis, misophonia, and/or noise sensitivity)\", column_header=False, row_header=False, row_section=False), TableCell(bbox=BoundingBox(l=296.66073328256607, t=383.31335866451263, r=461.5657534003258, b=423.9518332481384, coord_origin=<CoordOrigin.TOPLEFT: 'TOPLEFT'>), row_span=1, col_span=1, start_row_offset_idx=4, end_row_offset_idx=5, start_col_offset_idx=2, end_col_offset_idx=3, text='GLYPH<129> Sound Tolerance Interview a GLYPH<129> TRT initial and follow-up interviews (Henry et al., 2003; Jastreboff & Jastreboff, 1999)', column_header=False, row_header=False, row_section=False), TableCell(bbox=BoundingBox(l=491.0463184118271, t=383.78111642599106, r=705.4005485773087, b=430.10860246419907, coord_origin=<CoordOrigin.TOPLEFT: 'TOPLEFT'>), row_span=1, col_span=1, start_row_offset_idx=4, end_row_offset_idx=5, start_col_offset_idx=3, end_col_offset_idx=4, text='GLYPH<129> Educational counseling regarding the benign nature of sounds that are feared to cause an adverse reaction and that the auditory system needs sound for normal functioning GLYPH<129> Specific methodology is available using TRT', column_header=False, row_header=False, row_section=False)]])"
+        },
+        {
+          "type": "paragraph",
+          "text": "Table 1. Summary of symptoms, assessment tools, and treatment options for each of the different sound tolerance conditions."
+        },
+        {
+          "type": "paragraph",
+          "text": "Note. TRT = tinnitus retraining therapy; LDL = loudness discomfort level; HAT = hyperacusis activities treatment; PTM = progressive tinnitus management; CBT = cognitive behavioral therapy; TBI = traumatic brain injury."
+        },
+        {
+          "type": "paragraph",
+          "text": "a Available as Supplemental Material S2. b Not referring to migraineur phonophobia."
+        },
+        {
+          "type": "paragraph",
+          "text": "are generally harmless. Overprotecting the ears can make the auditory system even more sensitive, which is what can actually worsen the condition. Treatment for phonophobia involves specific counseling regarding the benign nature of any sound that causes a phonophobic reaction and that the auditory system needs sound for normal functioning. With TRT, the identical sound therapy protocol is used for phonophobia as for misophonia."
+        }
+      ]
+    },
+    {
+      "section": "Discussion",
+      "page_start": 11,
+      "page_end": 11,
+      "elements": [
+        {
+          "type": "heading",
+          "text": "Discussion"
+        },
+        {
+          "type": "paragraph",
+          "text": "We have described four different types of sound tolerance conditions. With ' hyperacusis, ' physical discomfort is experienced when exposed to everyday sounds that occur at low to moderate intensity levels. Hyperacusis is therefore classified as a condition of reduced loudness tolerance. The other three types are not dependent on the perceived loudness of sound. ' Misophonia ' involves negative reactions to certain sounds -often generated by the mouth or nose -such as chewing or sniffing. ' Noise sensitivity ' describes a general reactivity to sound in the environment and is often associated with head injury. ' Phonophobia ' is fear that sound will be uncomfortable for any reason -including loudness or emotional discomfort."
+        },
+        {
+          "type": "paragraph",
+          "text": "Studies focusing on sound tolerance conditions are a relatively recent phenomenon (Baguley & Hoare, 2018). Whereas these conditions have always existed, only recently have distinctions and terminology been described for the different types. We have set about to describe the different conditions with respect to their similarities, differences, and methods of clinical assessment and treatment (see Table 1). The information contained herein draws largely from the scientific literature, and it is clear that terminology, definitions, and clinical techniques are far from being standardized. When assessing for sound tolerance conditions, it is therefore important to operationally define any terms used."
+        },
+        {
+          "type": "paragraph",
+          "text": "There are currently a number of challenges to the clinical management of sound tolerance conditions. These challenges include the following: (a) Clinicians are usually neither trained nor experienced in assessing and treating these conditions. (b) Distinctions between the different types of conditions can be easily blurred due to the numerous nuances involved with each condition. (c) Standards do not yet exist for clinically managing sound tolerance conditions. (d) Many clinicians do not have access to interdisciplinary care, for example, mental health for collaboration when developing a plan of care with their patient. These challenges leave patients at a disadvantage. Our hope is that clinicians will at least become familiar with the different conditions, learn how to screen for a sound tolerance condition, and gain the necessary knowledge to aid patients in understanding their symptoms and making informed decisions. The references provided below can be helpful to learn more about sound tolerance conditions."
+        },
+        {
+          "type": "paragraph",
+          "text": "Possibly, the most important consideration when working with patients who have sound tolerance conditions is to determine how the condition affects their everyday life activities. It is always a good question to ask, ' Is there anything you want to be doing, but are not doing because of difficulty tolerating sound? ' The answer to this question, which is the second item in the STI (see Supplemental Material S2), can be very informative as to how to focus the management. In general, the focus should be on improving the patient s life and not on ' ' treating the disorder. ' An interprofessional approach is often recommended and, depending on the decreased sound tolerance in question, involves an audiologist, psychologist or other behavioral health provider, and occupational therapist."
+        },
+        {
+          "type": "paragraph",
+          "text": "Audiologists often conduct testing with an audiometer to determine LDLs at audiometric frequencies and/or using broadband noise. Based on the authors ' clinical and clinical research experiences, we do not recommend performing LDL testing to identify a sound tolerance condition primarily because it does not address how sound affects a person in real life, and the testing itself can be quite uncomfortable for the person who has a complaint of reduced tolerance to sound (Anari et al., 1999; Filion & Margolis, 1992; Goebel & Floetzinger, 2008; Zaugg et al., 2016). We recommend screening for a sound tolerance condition and, if the screening is positive, conduct a full assessment using a comprehensive interview. Screening and assessment procedures have been described in detail above."
+        },
+        {
+          "type": "paragraph",
+          "text": "Regardless of the type of sound tolerance condition, treatment generally involves counseling and acoustic desensitization with systematic exposure to sounds, often using the types of sounds that are problematic to the person. It is important, however, to always consider the possibility of psychological issues that may require the clinical services of a psychologist or other behavioral health provider as part of the care team."
+        }
+      ]
+    },
+    {
+      "section": "Acknowledgments",
+      "page_start": 11,
+      "page_end": 11,
+      "elements": [
+        {
+          "type": "heading",
+          "text": "Acknowledgments"
+        },
+        {
+          "type": "paragraph",
+          "text": "James A. Henry was funded by the Department of Veterans Affairs, Rehabilitation Research & Development Service: Senior Research Career Scientist Award (1 IK6 RX002990-01). Sarah M. Theodoroff was funded by the Department of Veterans Affairs, Clinical Science Research & Development: Merit Award (NURF-008-19F). The authors wish to acknowledge Russell Bennett, Elizabeth Lima, and Miguel Santos for their significant contributions to this effort, all of whom are employed by the Department of Veterans Affairs."
+        }
+      ]
+    }
+  ]
+}

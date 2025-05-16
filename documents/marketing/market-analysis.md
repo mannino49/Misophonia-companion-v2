@@ -1,3 +1,7 @@
+<!-- File: documents/marketing/market-analysis.md -->
+################################################################################
+# File: documents/marketing/market-analysis.md
+################################################################################
 # 📊 Market Analysis
 
 All market data is sourced and referenced with URLs.

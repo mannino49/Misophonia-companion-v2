@@ -1,3 +1,7 @@
+<!-- File: documents/research/summary-findings.md -->
+################################################################################
+# File: documents/research/summary-findings.md
+################################################################################
 # 📝 Summary of Research Findings (2023–2024)
 
 This document summarizes the latest, most credible findings on misophonia, with all claims directly linked to real, up-to-date sources.

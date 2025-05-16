@@ -1,3 +1,7 @@
+<!-- File: documents/research/latest-news.md -->
+################################################################################
+# File: documents/research/latest-news.md
+################################################################################
 # 📰 Latest News & Articles on Misophonia
 
 A curated, regularly updated list of major research breakthroughs, advocacy events, and news coverage on misophonia (2023–2024). All entries include publication date and URL for verification.

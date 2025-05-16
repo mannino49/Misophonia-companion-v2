@@ -1,3 +1,7 @@
+<!-- File: documents/development/technical-architecture.md -->
+################################################################################
+# File: documents/development/technical-architecture.md
+################################################################################
 # 🏗️ Technical Architecture
 
 ## Overview

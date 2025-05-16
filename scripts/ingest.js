@@ -1,23 +1,19 @@
+// File: scripts/ingest.js
 import fs from 'fs';
 import path from 'path';
 import pdfjsLib from 'pdfjs-dist/legacy/build/pdf.js';
 const { getDocument } = pdfjsLib;
-import admin from 'firebase-admin';
+import { createClient } from '@supabase/supabase-js';
 import dotenv from 'dotenv';
 
 // Load environment variables (make sure FIREBASE_* vars are set in server/.env)
 dotenv.config({ path: path.resolve(process.cwd(), 'server/.env') });
 
-// Initialize Firebase Admin SDK
-const serviceAccount = {
-  projectId: process.env.FIREBASE_PROJECT_ID,
-  clientEmail: process.env.FIREBASE_CLIENT_EMAIL,
-  privateKey: process.env.FIREBASE_PRIVATE_KEY?.replace(/\\n/g, '\n'),
-};
-admin.initializeApp({
-  credential: admin.credential.cert(serviceAccount),
-});
-const db = admin.firestore();
+// Initialize Supabase
+const supabase = createClient(
+  process.env.SUPABASE_URL,
+  process.env.SUPABASE_SERVICE_ROLE_KEY
+);
 
 // Function to chunk text
 function chunkText(text, size = 1000, overlap = 200) {
@@ -43,19 +39,29 @@ async function processPdf(filePath) {
   }
   const chunks = chunkText(text);
   const basename = path.basename(filePath, '.pdf');
-  const batch = db.batch();
-
-  chunks.forEach((chunk, idx) => {
-    const docRef = db.collection('research_chunks').doc(`${basename}_${idx}`);
-    batch.set(docRef, {
-      file: basename,
-      chunkIndex: idx,
-      text: chunk,
-      createdAt: admin.firestore.FieldValue.serverTimestamp(),
-    });
-  });
-
-  await batch.commit();
+  
+  // Prepare chunks for insertion
+  const chunksToInsert = chunks.map((chunk, idx) => ({
+    file: basename,
+    chunk_index: idx,
+    text: chunk,
+    created_at: new Date()
+  }));
+  
+  // Insert in batches of 500
+  const BATCH_SIZE = 500;
+  for (let i = 0; i < chunksToInsert.length; i += BATCH_SIZE) {
+    const batch = chunksToInsert.slice(i, i + BATCH_SIZE);
+    const { error } = await supabase
+      .from('research_chunks')
+      .insert(batch);
+    
+    if (error) {
+      console.error('Error inserting batch:', error);
+      throw error;
+    }
+  }
+  
   console.log(`Indexed ${chunks.length} chunks for ${basename}`);
 }
 

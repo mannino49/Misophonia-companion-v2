@@ -1,3 +1,7 @@
+<!-- File: documents/marketing/competitor-analysis.md -->
+################################################################################
+# File: documents/marketing/competitor-analysis.md
+################################################################################
 # 🥊 Competitor Analysis
 
 | Competitor | Description | Key Features | Pricing | URL |

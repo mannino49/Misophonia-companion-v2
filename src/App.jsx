@@ -1,11 +1,11 @@
+// File: src/App.jsx
 import './App.css'
 import React, { useState, useEffect, useRef } from 'react';
 import botAvatar from './assets/bot-avatar.png';
 import userAvatar from './assets/user-avatar.png';
 import TermsModal from './TermsModal';
-import TestRag from './TestRag';
-import ResearchRag from './ResearchRag';
-import { getCombinedSystemPrompt } from './systemPrompts';
+import RagAssistant from './RagAssistant.jsx';
+
 
 function NavBar({ setSection, section }) {
   return (
@@ -20,10 +20,7 @@ function NavBar({ setSection, section }) {
         <span role="img" aria-label="tools" style={{marginRight: 6}}>🧰</span> Therapeutic Tools
       </button>
       <button className={section === 'research' ? 'active' : ''} onClick={() => setSection('research')}>
-        <span role="img" aria-label="research" style={{marginRight: 6}}>🔬</span> Research RAG
-      </button>
-      <button className={section === 'test' ? 'active' : ''} onClick={() => setSection('test')}>
-        <span role="img" aria-label="test" style={{marginRight: 6}}>🧪</span> Test RAG
+        <span role="img" aria-label="research" style={{marginRight: 6}}>🔬</span> Research Assistant
       </button>
     </nav>
   );
@@ -130,6 +127,8 @@ function App() {
         <div className="bubble bubble7"></div>
         <div className="bubble bubble8"></div>
       </div>
+
+      {/* MAIN CONTENT BOX */}
       <div className="container">
         <AffirmationBanner />
         <SoundscapePlayer />
@@ -151,23 +150,16 @@ function App() {
             </main>
           </div>
         )}
-        {section === 'research' && (
-          <div className="card">
-            <main>
-              <ResearchRag />
-            </main>
-          </div>
-        )}
-        {section === 'test' && (
-          <div className="card">
-            <main>
-              <TestRag />
-            </main>
-          </div>
-        )}
+        {section === 'research' && <RagAssistant />}
       </div>
-      <div style={{ fontSize: '0.75rem', color: '#666', textAlign: 'center', margin: '1.5rem 0' }}>
-        Misophonia Companion is not a clinical tool or a substitute for professional psychological or medical treatment. It does not provide diagnosis, therapy, or crisis intervention. If you are experiencing a mental health emergency, please contact a licensed provider or emergency services immediately.
+
+      {/* NEW: footer lives here, outside .container */}
+      <div className="disclaimer-footer">
+        Misophonia Companion is not a clinical tool or a substitute for
+        professional psychological or medical treatment. It does not provide
+        diagnosis, therapy, or crisis intervention. If you are experiencing a
+        mental-health emergency, please contact a licensed provider or
+        emergency services immediately.
       </div>
     </>
   );
@@ -196,7 +188,7 @@ function Chatbot() {
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({
           messages: [
-            { role: 'system', content: getCombinedSystemPrompt() },
+            { role: 'system', content: 'You are a calm, supportive misophonia companion and research assistant.' },
             ...messages.map(m => ({ role: m.sender === 'user' ? 'user' : 'assistant', content: m.text })),
             { role: 'user', content: input }
           ]
