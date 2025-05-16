@@ -1,3 +1,7 @@
+<!-- File: documents/marketing/personas.md -->
+################################################################################
+# File: documents/marketing/personas.md
+################################################################################
 # 👤 User Personas
 
 | Persona         | Age | Background         | Pain Points                       | Goals                       |

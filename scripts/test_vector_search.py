@@ -1,172 +1,166 @@
 #!/usr/bin/env python3
-
+################################################################################
+# File: scripts/test_vector_search.py
+################################################################################
 """
-Test script for vector search functionality
+Vector‑search smoke‑test (Supabase edition)
+==========================================
 
-This script tests the semantic search capabilities of our vector database
-by performing sample queries and displaying the results.
+• Firebase/Firestore has been removed — every data call now goes through
+  Supabase's PostgREST API.
+
+• The script calls a SQL helper function that must exist on your database:
+    public.search_research_chunks(query_text TEXT,
+                                  match_count INT DEFAULT 10,
+                                  similarity_threshold REAL DEFAULT 0.6)
+  which should:
+    1. embed the incoming `query_text`
+    2. invoke your `match_documents` similarity function
+    3. return the top‑`match_count` rows as
+       (id UUID, text TEXT, metadata JSONB, similarity REAL)
+
+  See README / earlier instructions for a ready‑made implementation.
+
+Environment variables required
+------------------------------
+SUPABASE_URL                 – e.g. https://xxxx.supabase.co
+SUPABASE_SERVICE_ROLE_KEY    – or an anon key if RLS permits the RPC
+OPENAI_API_KEY               – only if your SQL helper embeds via an HTTP call
 """
+
+from __future__ import annotations
 
 import os
 import sys
-import json
-import firebase_admin
-from firebase_admin import credentials
-from firebase_admin import firestore
-import requests
 import time
+from typing import Any, Dict, List
 
-# Path to service account key
-SERVICE_ACCOUNT_PATH = "/Users/mannino/CascadeProjects/Misophonia Guide/scripts/service-account.json"
+from dotenv import load_dotenv
+from supabase import create_client
+from openai import OpenAI
 
-# Sample queries to test
-SAMPLE_QUERIES = [
+# ──────────────────────── configuration & sanity checks ───────────────────── #
+
+load_dotenv()
+
+# ---------- Supabase config ----------
+SUPABASE_URL = os.getenv("SUPABASE_URL")
+SUPABASE_KEY = os.getenv("SUPABASE_SERVICE_ROLE_KEY")   # or anon if RLS permits
+sb = create_client(SUPABASE_URL, SUPABASE_KEY)
+
+if not SUPABASE_URL or not SUPABASE_KEY:
+    sys.exit(
+        "❌  SUPABASE_URL / SUPABASE_SERVICE_ROLE_KEY env vars are missing.\n"
+        "    export them and rerun."
+    )
+
+# Sample questions to probe the index
+SAMPLE_QUERIES: List[str] = [
     "What are the symptoms of misophonia?",
     "How prevalent is misophonia in university students?",
     "What is the relationship between misophonia and hyperacusis?",
     "What treatments are effective for misophonia?",
-    "How does misophonia affect quality of life?"
+    "How does misophonia affect quality of life?",
 ]
 
-def generate_embedding(text, api_key):
-    """
-    Generate embedding for text using OpenAI API
-    """
-    try:
-        # Truncate text if it's too long (OpenAI has token limits)
-        truncated_text = text[:8000] if len(text) > 8000 else text
-        
-        # Make API call to OpenAI embeddings endpoint
-        response = requests.post(
-            'https://api.openai.com/v1/embeddings',
-            json={
-                'input': truncated_text,
-                'model': 'text-embedding-3-small'  # Using OpenAI's latest embedding model
-            },
-            headers={
-                'Authorization': f'Bearer {api_key}',
-                'Content-Type': 'application/json'
-            }
-        )
-        
-        response.raise_for_status()  # Raise exception for HTTP errors
-        
-        # Extract the embedding from the response
-        embedding = response.json()['data'][0]['embedding']
-        print(f"Generated embedding with dimension: {len(embedding)}")
-        return embedding
-    except Exception as e:
-        print(f"Error generating embedding: {e}")
-        return None
+# Add this after other configuration
+openai_client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
 
-def perform_vector_search(db, query_embedding, limit=5):
+def embed(text: str) -> List[float]:
+    """Return OpenAI ada‑002 embedding (1536‑dim list of floats)."""
+    resp = openai_client.embeddings.create(
+        model="text-embedding-ada-002",
+        input=text,
+    )
+    return resp.data[0].embedding
+
+# ─────────────────────────── helper functions ─────────────────────────────── #
+
+
+def perform_vector_search(query_vec, top_k=5, thresh=0.6):
     """
-    Perform vector search in Firestore using the query embedding
+    Call the SQL RPC we just created.
+    `query_vec` is a list[float] length 1536 coming from OpenAI.
     """
     try:
-        # Get all documents from research_chunks collection
-        chunks_ref = db.collection('research_chunks')
-        chunks = chunks_ref.limit(100).get()  # Limit to 100 for testing
-        
-        # Calculate cosine similarity for each document
-        results = []
-        for chunk in chunks:
-            chunk_data = chunk.to_dict()
-            if 'embedding' in chunk_data and chunk_data['embedding']:
-                # Calculate cosine similarity (dot product for normalized vectors)
-                similarity = calculate_cosine_similarity(query_embedding, chunk_data['embedding'])
-                
-                results.append({
-                    'id': chunk.id,
-                    'text': chunk_data.get('text', ''),
-                    'metadata': chunk_data.get('metadata', {}),
-                    'similarity': similarity
-                })
-        
-        # Sort by similarity (highest first) and take top k
-        results.sort(key=lambda x: x['similarity'], reverse=True)
-        return results[:limit]
+        resp = sb.rpc(
+            "search_research_chunks",
+            {
+                "query_embedding": query_vec,
+                "match_count": top_k,
+                "similarity_threshold": thresh,
+            },
+        ).execute()
+        if getattr(resp, "error", None):
+            raise RuntimeError(resp.error)
+        return resp.data or []
     except Exception as e:
-        print(f"Error performing vector search: {e}")
+        print(f"   ⚠  RPC failed: {e}")
         return []
 
-def calculate_cosine_similarity(vec1, vec2):
-    """
-    Calculate cosine similarity between two vectors
-    """
-    if not vec1 or not vec2 or len(vec1) != len(vec2):
-        return 0.0
-    
-    dot_product = sum(a * b for a, b in zip(vec1, vec2))
-    magnitude1 = sum(a * a for a in vec1) ** 0.5
-    magnitude2 = sum(b * b for b in vec2) ** 0.5
-    
-    if magnitude1 * magnitude2 == 0:
-        return 0.0
-    
-    return dot_product / (magnitude1 * magnitude2)
 
-def main():
-    # Check if OpenAI API key is provided
-    api_key = os.environ.get('OPENAI_API_KEY')
-    if not api_key:
-        print("Error: OPENAI_API_KEY environment variable not set")
-        print("Please set it using: export OPENAI_API_KEY='your-api-key'")
-        sys.exit(1)
-    
-    # Initialize Firebase with service account
-    print(f"Initializing Firebase with service account: {SERVICE_ACCOUNT_PATH}")
-    try:
-        cred = credentials.Certificate(SERVICE_ACCOUNT_PATH)
-        firebase_admin.initialize_app(cred)
-        db = firestore.client()
-        
-        # Test database connection
-        print("Testing database connection...")
-        collections = [collection.id for collection in db.collections()]
-        print(f"Available collections: {collections}")
-        print("Firebase initialized successfully")
-    except Exception as e:
-        print(f"Error initializing Firebase: {e}")
-        sys.exit(1)
-    
-    # Check if we have documents with embeddings
-    chunks_ref = db.collection('research_chunks')
-    chunks = chunks_ref.limit(5).get()
-    
-    if not chunks:
-        print("No documents found in research_chunks collection")
-        print("Make sure the embedding generation process has completed")
-        sys.exit(1)
-    
-    # Test each query
-    for i, query in enumerate(SAMPLE_QUERIES):
-        print(f"\n\nQuery {i+1}: {query}")
-        
-        # Generate embedding for query
-        query_embedding = generate_embedding(query, api_key)
-        if not query_embedding:
-            print("Failed to generate embedding for query, skipping...")
-            continue
-        
-        # Perform vector search
+def print_results(rows: List[Dict[str, Any]]) -> None:
+    """
+    Nicely format the search results.
+    """
+    if not rows:
+        print("   (no matches)\n")
+        return
+
+    for idx, row in enumerate(rows, 1):
+        meta = row.get("metadata", {}) or {}
+        title = meta.get("title", "Unknown title")
+        year = meta.get("year", "????")
+        author = meta.get("primary_author", "Unknown author")
+        sim = row.get("similarity", 0.0)
+
+        snippet = (row.get("text", "") or "").replace("\n", " ")[:280] + "…"
+
+        print(f"\nResult {idx}  •  sim={sim:.3f}")
+        print(f"  {title} — {author} ({year})")
+        print(f"  {snippet}")
+
+
+# ────────────────────────────────── main ──────────────────────────────────── #
+
+
+def main() -> None:
+    print("\n🔍  Supabase vector search smoke‑test\n" + "—" * 60)
+    for i, q in enumerate(SAMPLE_QUERIES, 1):
+        print(f'\nQuery {i + 1}/{len(SAMPLE_QUERIES)}: "{q}"')
+
+
+        # 1. get the vector
+        print("Generating embedding...")
+        query_vec = embed(q)  # Python list[float]
+
+        # 2. PostgREST / Postgres expects a *string* like: [0.1,0.2,…]
+        vec_literal = "[" + ",".join(f"{x:.6f}" for x in query_vec) + "]"
+
+        # 3. call the RPC
         print("Performing vector search...")
-        results = perform_vector_search(db, query_embedding)
+        resp = sb.rpc(
+            "search_research_chunks",
+            {
+                "query_embedding": vec_literal,  # <- NOT the raw text
+                "match_count": 5,
+                "similarity_threshold": 0.6,
+            },
+        ).execute()
         
-        # Display results
-        print(f"\nTop {len(results)} results:")
-        for j, result in enumerate(results):
-            print(f"\nResult {j+1} (Similarity: {result['similarity']:.4f})")
-            metadata = result['metadata']
-            print(f"Document: {metadata.get('title', 'Unknown')} ({metadata.get('year', 'Unknown')})")
-            print(f"Authors: {', '.join(metadata.get('authors', ['Unknown']))}")
-            print(f"Section: {metadata.get('section', 'Unknown')}")
-            print(f"Text: {result['text'][:300]}...")
-        
-        # Add a delay between queries
-        if i < len(SAMPLE_QUERIES) - 1:
-            print("\nWaiting before next query...")
+        if getattr(resp, "error", None):
+            print(f"   ⚠  RPC failed: {resp.error}\n")
+            continue
+            
+        results = resp.data or []
+        print_results(results)
+
+        if i < len(SAMPLE_QUERIES):
+            print("\nPausing 2 s before the next query …")
             time.sleep(2)
+
+    print("\n✔  Done")
+
 
 if __name__ == "__main__":
     main()

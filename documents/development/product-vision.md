@@ -1,3 +1,7 @@
+<!-- File: documents/development/product-vision.md -->
+################################################################################
+# File: documents/development/product-vision.md
+################################################################################
 # 🌟 Product Vision
 
 ## Mission

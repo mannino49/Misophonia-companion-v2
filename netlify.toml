@@ -1,7 +1,11 @@
-# Netlify configuration for Misophonia Companion
+# File: netlify.toml
+
 [build]
   command = "npm run build"
   publish = "dist"
+
+[build.environment]
+  NODE_VERSION = "20"
 
 [dev]
   command = "npm run dev"
@@ -9,11 +13,28 @@
 
 [functions]
   directory = "netlify/functions"
+  node_bundler = "esbuild"
+  external_node_modules = ["openai", "@supabase/supabase-js"]
 
 # Redirect all requests to index.html for SPA routing
 [[redirects]]
   from = "/api/*"
   to = "/.netlify/functions/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/api/gemini"
+  to = "/.netlify/functions/research"
+  status = 200
+
+[[redirects]]
+  from = "/api/rag"
+  to = "/.netlify/functions/rag"
+  status = 200
+
+[[redirects]]
+  from = "/api/chat"
+  to = "/.netlify/functions/chat"
   status = 200
 
 [[redirects]]

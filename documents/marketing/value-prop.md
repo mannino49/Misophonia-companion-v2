@@ -1,3 +1,7 @@
+<!-- File: documents/marketing/value-prop.md -->
+################################################################################
+# File: documents/marketing/value-prop.md
+################################################################################
 # 💎 Value Proposition
 
 ## What Makes Misophonia Companion Unique?

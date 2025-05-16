@@ -1,3 +1,7 @@
+<!-- File: documents/research/expert-interviews.md -->
+################################################################################
+# File: documents/research/expert-interviews.md
+################################################################################
 # 🎤 Expert Interviews & Profiles (2023–2024)
 
 Summaries and links to interviews, talks, and profiles of leading researchers, clinicians, and advocates in misophonia. All entries are real and verifiable.

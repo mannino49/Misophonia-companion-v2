@@ -1,3 +1,7 @@
+<!-- File: documents/development/vector-store-development-plan.md -->
+################################################################################
+# File: documents/development/vector-store-development-plan.md
+################################################################################
 # Misophonia Guide Vector Store Development Plan
 
 ## Overview

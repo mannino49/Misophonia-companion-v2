@@ -1,3 +1,7 @@
+<!-- File: documents/README.md -->
+################################################################################
+# File: documents/README.md
+################################################################################
 # 📚 Research Documents
 
 This folder contains up-to-date, sourced research on misophonia. All claims are backed by reputable sources with URLs for verification.

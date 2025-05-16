@@ -1,3 +1,7 @@
+<!-- File: documents/research/academic-sources.md -->
+################################################################################
+# File: documents/research/academic-sources.md
+################################################################################
 # 🧑‍🔬 Academic & Clinical Research on Misophonia (2023–2024)
 
 All sources are peer-reviewed or published by reputable organizations. Each entry includes a URL for verification. This list is regularly expanded and updated.

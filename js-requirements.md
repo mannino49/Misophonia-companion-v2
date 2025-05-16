@@ -1,3 +1,7 @@
+<!-- File: js-requirements.md -->
+################################################################################
+# File: js-requirements.md
+################################################################################
 # JavaScript Dependencies for Misophonia Research RAG System
 
 ## Core Dependencies

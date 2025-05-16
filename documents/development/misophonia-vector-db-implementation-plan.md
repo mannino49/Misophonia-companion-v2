@@ -1,3 +1,9 @@
+<!-- 
+ * File: documents/development/misophonia-vector-db-implementation-plan.md
+  -->
+################################################################################
+# File: documents/development/misophonia-vector-db-implementation-plan.md
+################################################################################
 # Misophonia Research Vector Database: Implementation Plan
 
 ## Project Overview
