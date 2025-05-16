@@ -442,3 +442,25 @@ h2 {
   position: sticky;
   bottom: 1.5rem;
 }
+
+/* User Greeting Styles */
+.user-greeting {
+  background: linear-gradient(90deg, #f8f6ff 0%, #e0e7ef 100%);
+  border-radius: 12px;
+  padding: 1.2rem;
+  margin-top: 1.5rem;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+}
+
+.user-greeting p:first-child {
+  font-weight: 600;
+  color: #4b6073;
+  font-size: 1.1rem;
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+}
+
+.user-greeting p:last-child {
+  color: #6c757d;
+  margin-bottom: 0;
+}

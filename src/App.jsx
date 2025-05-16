@@ -1,11 +1,13 @@
 // File: src/App.jsx
 import './App.css'
+import './onboarding.css'
 import React, { useState, useEffect, useRef } from 'react';
 import botAvatar from './assets/bot-avatar.png';
 import userAvatar from './assets/user-avatar.png';
 import TermsModal from './TermsModal';
 import RagAssistant from './RagAssistant.jsx';
-
+import OnboardingSelector from './components/OnboardingSelector';
+import UserProfile from './components/UserProfile';
 
 function NavBar({ setSection, section }) {
   return (
@@ -18,6 +20,9 @@ function NavBar({ setSection, section }) {
       </button>
       <button className={section === 'tools' ? 'active' : ''} onClick={() => setSection('tools')}>
         <span role="img" aria-label="tools" style={{marginRight: 6}}>🧰</span> Therapeutic Tools
+      </button>
+      <button className={section === 'profile' ? 'active' : ''} onClick={() => setSection('profile')}>
+        <span role="img" aria-label="profile" style={{marginRight: 6}}>👤</span> My Profile
       </button>
       <button className={section === 'research' ? 'active' : ''} onClick={() => setSection('research')}>
         <span role="img" aria-label="research" style={{marginRight: 6}}>🔬</span> Research Assistant
@@ -113,7 +118,22 @@ function SoundscapePlayer() {
 function App() {
   const [section, setSection] = useState('home');
   const [termsAccepted, setTermsAccepted] = useState(localStorage.getItem('termsAccepted') === 'true');
+  const [onboardingComplete, setOnboardingComplete] = useState(localStorage.getItem('onboardingComplete') === 'true');
+  const [userProfile, setUserProfile] = useState(JSON.parse(localStorage.getItem('userProfile') || 'null'));
+  
   if (!termsAccepted) return <TermsModal onAccept={() => setTermsAccepted(true)} />;
+  
+  // Show onboarding if terms are accepted but onboarding is not complete
+  if (termsAccepted && !onboardingComplete) {
+    return (
+      <OnboardingSelector 
+        onComplete={(profile) => {
+          setUserProfile(profile);
+          setOnboardingComplete(true);
+        }} 
+      />
+    );
+  }
 
   return (
     <>
@@ -138,6 +158,20 @@ function App() {
             <main>
               <h1 className="title">Welcome to Misophonia Companion</h1>
               <p className="subtitle">A soothing space to manage triggers, support healing, and explore research—built for both sufferers and professionals.</p>
+              {userProfile && (
+                <div className="user-greeting">
+                  <p>Welcome back, {userProfile.name || 'friend'}!</p>
+                  {userProfile.userType === 'sufferer' && (
+                    <p>Continue your journey to manage misophonia triggers and find relief.</p>
+                  )}
+                  {userProfile.userType === 'parent' && (
+                    <p>Continue supporting your child with misophonia management strategies.</p>
+                  )}
+                  {userProfile.userType === 'clinician' && (
+                    <p>Access your clinical resources and research tools for misophonia treatment.</p>
+                  )}
+                </div>
+              )}
             </main>
           </div>
         )}
@@ -147,6 +181,16 @@ function App() {
             <main>
               <h2>Therapeutic Tools</h2>
               <p>Coming soon: Sound therapy, coping strategies, and relaxation exercises.</p>
+            </main>
+          </div>
+        )}
+        {section === 'profile' && (
+          <div className="card">
+            <main>
+              <UserProfile 
+                userProfile={userProfile} 
+                onUpdate={(updatedProfile) => setUserProfile(updatedProfile)} 
+              />
             </main>
           </div>
         )}
