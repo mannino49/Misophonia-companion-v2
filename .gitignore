@@ -43,3 +43,20 @@ node_modules/
 
 # Git branch tracking
 git branch -vv
+
+# Research scripts and data
+scripts/batch_embedding_report_*.json
+scripts/optimized_batch_stats_*.json
+scripts/__pycache__/
+scripts/service-account.json
+scripts/vector_database_*.json
+scripts/batch_*_stats.json
+scripts/overall_processing_stats.json
+data/
+documents/research/test/
+temp_backup/
+firestore/
+functions/
+client/
+rag_test.html
+run_rag_test.py
