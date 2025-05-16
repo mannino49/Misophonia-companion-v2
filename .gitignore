@@ -40,3 +40,6 @@ netlify/functions/.env
 .netlify
 misophonia-companion/
 node_modules/
+
+# Git branch tracking
+git branch -vv
