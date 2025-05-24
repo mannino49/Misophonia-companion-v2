@@ -38,7 +38,7 @@ function OnboardingSelector({ onComplete }) {
             className="user-type-card" 
             onClick={() => handleUserTypeSelect('sufferer')}
           >
-            <div className="user-type-icon">ud83dude0a</div>
+            <div className="user-type-icon">😌</div>
             <h3>Person with Misophonia</h3>
             <p>Get personalized support, tracking tools, and coping strategies</p>
           </div>
@@ -47,7 +47,7 @@ function OnboardingSelector({ onComplete }) {
             className="user-type-card" 
             onClick={() => handleUserTypeSelect('parent')}
           >
-            <div className="user-type-icon">ud83dudc6a</div>
+            <div className="user-type-icon">👪</div>
             <h3>Parent or Caregiver</h3>
             <p>Find resources to help your child manage misophonia symptoms</p>
           </div>
@@ -56,7 +56,7 @@ function OnboardingSelector({ onComplete }) {
             className="user-type-card" 
             onClick={() => handleUserTypeSelect('clinician')}
           >
-            <div className="user-type-icon">ud83dudc89</div>
+            <div className="user-type-icon">🩺</div>
             <h3>Healthcare Provider</h3>
             <p>Access evidence-based research and clinical resources</p>
           </div>
